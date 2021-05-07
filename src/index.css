@@ -1,8 +1,9 @@
-body {
-    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+   body {
+       @apply bg-body;
+   }
+  }
