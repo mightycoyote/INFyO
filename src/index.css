@@ -3,7 +3,35 @@
 @tailwind utilities;
 
 @layer base {
-   body {
-       @apply bg-body;
-   }
-  }
+    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+    h1, h2, h3 {
+        font-family: 'Racing Sans One', cursive;
+    }
+    h2 {
+        @apply text-4xl py-2 text-primary-verydark;
+    }
+    h3 {
+        @apply text-2xl py-1.5 text-primary-verydark;
+    }
+    body {
+        @apply bg-secondaryone-verydark;
+    }
+    ul {
+        @apply list-disc;
+    }
+    li {
+        @apply ml-6 pb-1;
+    }
+    p {
+        @apply p-1;
+    }
+}
+
+/* @layer components {
+    .callout {
+        @apply
+    }
+    .point {
+        @apply
+    }
+} */
