@@ -7,11 +7,14 @@
     h1, h2, h3 {
         font-family: 'Racing Sans One', cursive;
     }
+    h2, h3, h4 {
+        @apply text-secondarytwo-light;
+    }
     h2 {
-        @apply text-4xl py-2 text-primary-verydark;
+        @apply text-4xl py-2;
     }
     h3 {
-        @apply text-2xl py-1.5 text-primary-verydark;
+        @apply text-2xl py-1.5;
     }
     body {
         @apply bg-secondaryone-verydark;
@@ -27,11 +30,14 @@
     }
 }
 
-/* @layer components {
+@layer components {
+    .content {
+        @apply container mx-auto bg-blue-200 rounded text-gray-900 p-8;
+    }
     .callout {
-        @apply
+        @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
     }
-    .point {
+    /* .point {
         @apply
-    }
-} */
+    } */
+}
