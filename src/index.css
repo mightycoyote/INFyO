@@ -31,13 +31,14 @@
 }
 
 @layer components {
-    .content {
+    main {
         @apply container mx-auto bg-blue-200 rounded text-gray-900 p-8;
     }
     .callout {
         @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
     }
-    /* .point {
-        @apply
-    } */
+    .point::before {
+        content: "\261E";
+    }
+   
 }
