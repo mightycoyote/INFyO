@@ -4,7 +4,10 @@
 
 @layer base {
     @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
+        font-family: 'Racing Sans One', cursive;
+    }
+    header p {
         font-family: 'Racing Sans One', cursive;
     }
     h2, h3, h4 {
@@ -15,6 +18,9 @@
     }
     h3 {
         @apply text-2xl py-1.5;
+    }
+    h4 {
+        @apply text-xl;
     }
     body {
         @apply bg-secondaryone-verydark;
@@ -31,14 +37,27 @@
 }
 
 @layer components {
-    main {
-        @apply container mx-auto bg-blue-200 rounded text-gray-900 p-8;
+    header {
+        @apply text-complementary-light;
     }
-    .callout {
+    main {
+        @apply container mx-auto bg-blue-200 rounded text-gray-900 p-8 mb-8;
+    }
+    .content {
+        @apply md:flex;
+    }
+    /* .primary {
+      
+    } */
+    .box {
         @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
     }
+    .point {
+        @apply flex;
+    }
     .point::before {
-        content: "\261E";
+        content: "\2192";
+        @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
     }
    
 }
