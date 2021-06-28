@@ -40,13 +40,32 @@ function App() {
             <h4>Playstyles</h4>
             <div className="content">
               <div className="primary">
-                <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. (You can also count a sixth, responsive string tricks, sometimes called "0A.") If you're new to the hobby, check them out. Conversationally, the styles are often referred to by their division name. It's a useful shorthand, but somewhat bewildering if you're not familiar with it yet.</p>
+                <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby, check them out. Conversationally, the styles are often referred to by their division name.</p>
               </div>
               <div className="box">
-                <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own unique yoyos specific to those playstyles.</p>
+                <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles.</p>
                 <p>This page is about getting started with basic 1A play.</p>
               </div>
             </div>
+          <h3>Guts</h3>  
+          <div className="content">
+            <div className="primary">
+              <ul>
+                <li><b>Fixed-axle, or "fixie."</b> Responsive. E.g, your basic wooden yoyo or Duncan Imperial. (Don't worry, people still play with these.) Wooden yoyos come back because of the friction of the wood itself. As you'll see below, those made with slicker materials need to add something in the area next to the axle to create the friction.</li>
+                <li><b>Transaxle.</b> Responsive. These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic) instead of silicone rubber stickers that need to be replaced periodically.</li>
+                <li><b>Ball bearing.</b> Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing yoyos use starburst response instead.</li>
+              </ul> 
+            </div>
+            <div className="box">
+              <p><b>Transaxle</b> yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Getting started</h2>
+        </section>
+        <section>
+          <h2>FAQs with somewhat controversial answers</h2>
         </section>
       </main>
     {/* footer */}
