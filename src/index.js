@@ -44,20 +44,64 @@ function App() {
               </div>
               <div className="box">
                 <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles.</p>
-                <p>This page is about getting started with basic 1A play.</p>
+                <p>The page you're on now is about getting started with basic 1A play.</p>
               </div>
             </div>
           <h3>Guts</h3>  
           <div className="content">
             <div className="primary">
               <ul>
-                <li><b>Fixed-axle, or "fixie."</b> Responsive. E.g, your basic wooden yoyo or Duncan Imperial. (Don't worry, people still play with these.) Wooden yoyos come back because of the friction of the wood itself. As you'll see below, those made with slicker materials need to add something in the area next to the axle to create the friction.</li>
-                <li><b>Transaxle.</b> Responsive. These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic) instead of silicone rubber stickers that need to be replaced periodically.</li>
-                <li><b>Ball bearing.</b> Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing yoyos use starburst response instead.</li>
+                <li><b>Fixed-axle, or "fixie."</b> Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something in the area next to the axle (called the "response area") to create the friction.</li>
+                <li><b>Transaxle.</b> These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic).</li>
+                <li><b>Ball bearing.</b> Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</li>
               </ul> 
             </div>
             <div className="box">
               <p><b>Transaxle</b> yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
+            </div>
+          </div>
+          <h4>String trick yoyo bearings</h4>
+          <div className="content">
+            <div className="primary">
+              <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider cousin the "C" bearing for unresponsive play.</p>
+              <ul>
+                <li><b>Half-spec bearings</b> need a thick lube or silicone grease in them to respond properly. When one comes installed in your new beginner-friendly yoyo, it's usually been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more.</li> 
+                <li><b>"C" bearings</b> <a href="www.example.com">don't necessarily need lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane.</li>
+              </ul>
+            </div>
+            <div className="box">
+              <p>Manufacturers do still make string trick yoyos that take bearings other than "C"&mdash;typically "A" or "D". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it could be anything.)</p>
+            </div>
+          </div>
+          <h3>Common materials</h3>
+          <div className="columns">
+            <div>
+              <h4>Wood</h4>
+              <p>These are usually, but not always, fixed-axle. Decent cheap ones are still available, but you can also find fancier ones with features like adjustable axles and nice hardwoods.</p>
+            </div>
+            <div>
+              <h4>Plastic</h4>
+              <p>Plastic yoyos run the gamut from literally unusable dollar-store garbage to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or polycarbonate that feel and play great and cost as much as a decent aluminum yoyo. On the other hand, you can get a very good injection-molded yoyo that you'll use forever for $20 or less.</p>
+            </div>
+            <div>
+              <h4>Aluminum</h4>
+              <ul>
+                <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or, it's dirt-cheap and of dubious origin.</li>
+                <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, they can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
+              </ul>
+              <p className="point"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">If you're interested, you can read all about aluminum alloys in Wikipedia.</a></p>
+            </div>
+            <div>
+              <h4>Titanium</h4>
+              <p>Usually unresponsive, although there are also some responsive slimline titanium yoyos. The advantage of titanium is similar to 7000-series aluminum, only even more so&mdash;it can be machined even thinner, and is very durable. However, it does not perform objectively better than aluminum. (If that were the case, titanium would routinely be used by serious competitors, but it isn't.) They're pricey, and often very limited, and you're not really missing out if you don't have one. ...That said, if you want one anyway, one good way to go about it is to keep an eye out for preorder announcements. They're sometimes available used too, of course, but not necessarily cheaper.</p>
+            </div>
+            <div>
+              <h4>Steel</h4>
+              <p>Steel is <em>extremely</em> heavy, but sometimes small yoyos are made out of it. It's not really a performance material, more of a novelty. Some people like to choose a steel yoyo as the one they carry in their pocket all day, due to its durability.</p>
+            </div>
+            <div>
+              <h4>Bimetal</h4>
+              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is also made out of aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
             </div>
           </div>
         </section>
