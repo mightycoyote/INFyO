@@ -43,21 +43,22 @@
     header {
         @apply text-complementary-light;
     }
+    /* fix main container */
     main {
-        @apply container mx-auto bg-blue-200 rounded text-gray-900 p-8 mb-8;
+        @apply container mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-8;
     }
+    /* remember to apply .content to sections that have aside boxes */
     .content {
         @apply md:flex items-start pb-2;
     }
     .primary {
         @apply pr-2;
     }
+    /* fix proportions of aside boxes, probably add titles */
     .box {
         @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
     }
-    .columns {
-        columns: 2;
-    }
+
     /* flex here makes the text line up vertically instead of wrapping around the arrow */
     .point {
         @apply flex;
@@ -65,5 +66,11 @@
     .point::before {
         content: "\2192";
         @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
+    }
+}
+@media (min-width: 900px) {
+    .columns {
+        columns: 2;
+        column-gap: 2rem;
     }
 }
