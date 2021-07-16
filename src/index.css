@@ -4,10 +4,7 @@
 
 @layer base {
     @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-    h1, h2, h3, h4 {
-        font-family: 'Racing Sans One', cursive;
-    }
-    header p {
+    h1, h2, h3, h4, header p, .boxhead {
         font-family: 'Racing Sans One', cursive;
     }
     h2, h3, h4 {
@@ -19,7 +16,7 @@
     h3 {
         @apply text-2xl;
     }
-    h4 {
+    h4, .boxhead {
         @apply text-xl;
     }
     body {
