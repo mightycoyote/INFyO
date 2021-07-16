@@ -150,20 +150,20 @@ function App() {
                   <ol className="list-decimal">
                     <li>Starter sets.</li>
                     <li>Plastic yoyos that are marketed as good for both beginner and advanced play, come with both the half spec and C bearing, and look cool to you.</li>
-                    <li>Look on yoyo forums to see what people are recommending currently, or ask. The tricky part is that not everything is always available, so you can get help choosing from your <em>current</em> options too. People's favorite recommendations aren't always in stock.</li>
+                    <li>Look on yoyo forums to see what people are recommending currently, or ask. The tricky part is that not everything is always available, so you can ask for help choosing among your <em>current</em> options too. People's favorite recommendations aren't always in stock.</li>
                   </ol>
                 </div>
                 <aside className="box">
                 <span className="boxhead">Being prepared</span>
                   <p>The one thing you should definitely buy with your first yoyo is extra string (if you're not getting a package deal that comes with it already). They don't need to be fancy or expensive, and a 100-pack might be overkill, but you do need some.</p>
-                  <p className="point">Many people find dark string too hard to see. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, just buy a bright color too so that you have an alternative.</p>
+                  <p className="point">Many people find dark string too hard to see. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, buy a bright color too so that you have an alternative.</p>
                 </aside>
               </div>
             <h3>Resources</h3>
               <h4>Videos</h4>
-                <p>There are lots and lots of sources of tutorial videos now. Check out several&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. (This may seem obvious, but it's actually pretty easy to get so absorbed in a frustrating problem that you forget.)</p>
+                <p>There are lots and lots of free online tutorials now, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. (This may seem obvious, but it's actually pretty easy to get so absorbed in a frustrating problem that you forget.)</p>
               <h4>Online communities</h4>
-              <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked from there) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
+              <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked from Reddit) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
         </section>
         <section>
           <h2>FAQs with somewhat controversial answers</h2>
@@ -226,9 +226,9 @@ function App() {
               <p>Yeah, they come in a lot of shapes.</p>
               <ul>
                 <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online, with diagrams, by people more knowledgeable than me, so I'm not repeating it here.)</li>
-                <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles (as opposed to fully rounded), a lot of rim weight, and is often fairly wide. Beyond them, there's an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
+                <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles (as opposed to fully rounded), a lot of rim weight, and is often fairly wide. Beyond these, there's an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
                 <li>When you're new, it's easy to get the idea that you'll always want to play with performance-oriented yoyos. That's true to an extent when you're starting out or working on something new&mdash;it's easier to land and figure out the tricks you're learning. Just don't be surprised if your taste in yoyos evolves over time, or even day to day, after you've been playing for a while.</li>
-                <li>The specific shape you get for your first yoyo doesn't matter much. If you get into it, you'll end up trying a lot of them to see which you like best.</li>
+                <li>The specific shape you get for your first yoyo doesn't matter much.</li>
               </ul>
             </div>
         </section>
