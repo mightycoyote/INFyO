@@ -19,7 +19,7 @@ function App() {
     {/* content */}
       <main>
         <section>
-          <p className="point">There are tons of tutorials on getting started, maintenance, reviews, and especially tricks&mdash;they're easy to find, and I'm not repeating them here. This is just a guide to some of the things that weren't always clear to me as a beginner.</p>
+          <p className="point">There are tons of tutorials on getting started, tricks, and maintenance&mdash;they're easy to find, and I'm not repeating them here. This is just a guide to some of the things that weren't always clear to me as a beginner.</p>
         </section>
         <section>
           <h2>Modern yoyo basics</h2>
@@ -52,18 +52,25 @@ function App() {
           <h3>Guts</h3>  
           <div className="content">
             <div className="primary">
-              <ul>
-                <li><b>Fixed-axle, or "fixie."</b> Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something in the area next to the axle (called the "response area") to create the friction.</li>
-                <li><b>Transaxle.</b> These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic).</li>
-                <li><b>Ball bearing.</b> Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</li>
-              </ul> 
+              <div>
+                <h4>Fixed-axle</h4>
+                <p>Or "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something in the area next to the axle (called the "response area") to create the friction.</p>
+              </div>
+              <div>
+                <h4>Transaxle</h4>
+                <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic).</p>
+              </div>  
+              <div>
+                <h4>Ball bearing</h4> 
+                <p>Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</p>
+              </div>
             </div>
             <aside className="box">
               <span className="boxhead">Keeping it simple</span>
               <p>Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
             </aside>
           </div>
-          <h4>String trick yoyo bearings</h4>
+          <h5>String trick yoyo bearings</h5>
           <div className="content">
             <div className="primary">
               <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider cousin the "C" bearing for unresponsive play.</p>
@@ -111,22 +118,27 @@ function App() {
           </div>
           <h3>Strings</h3>
             <div className="content">
-                <div className="primary">
-                <ul>
-                  <li><b>Cotton.</b> Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat likely with cotton, however.</li>
-                  <li><b>Polyester.</b> The standard for most kinds of play. They range from very cheap to quite expensive. Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them. 
-                  <p>The cheapest strings:</p></li>
+              <div className="primary">
+                <div>
+                  <h4>Cotton</h4> 
+                  <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat likely with cotton, however.</p>
+                </div>
+                <div>
+                  <h4>Polyester</h4> 
+                  <p>The standard for most kinds of play. They range from very cheap to quite expensive. Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
+                  <p>The cheapest strings:</p>
                     <ol className="list-decimal pl-4">
                       <li>Don't whip well&mdash;that is, they don't have enough body to form a good loop when doing a slack trick.</li>
                       <li>Are especially prone to twisting up on themselves (all string does this as the tension changes naturally during play, but better strings resist it more).</li>
                       <li>Don't last long, maybe a couple of hours. This is one of the more significant considerations costwise&mdash;the most expensive strings do often last a lot longer.</li>
                       <li>Might be rough. Personally, I need my strings to be on the soft side since my hands are chapped all winter, but some popular bulk strings are rough and their fans don't seem to mind. I've also encountered cheap strings that are soft, but poor at 1-3.</li>
                     </ol>
-                  <li>
-                    <b>Nylon or nylon-polyester blend.</b> Nylon is soft and long-lasting, but also plays very differently from polyester. It tends to be more bouncy and stretch more during play, and whips very fast. It's something of an acquired taste. It also tends to be fairly expensive, but in some cases that's offset by the longevity. 
+                  </div>
+                  <div>
+                    <h4>Nylon or nylon-polyester blend</h4>
+                    <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It tends to be more bouncy and stretch more during play, and whips very fast. It's something of an acquired taste. It also tends to be fairly expensive, but in some cases that's offset by the longevity.</p>
                     <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
-                  </li>
-                </ul>
+                  </div>
               </div>
             <aside className="box">
             <span className="boxhead">Thick and thin</span>
