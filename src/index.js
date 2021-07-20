@@ -100,7 +100,7 @@ function App() {
                 <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or it's of dubious origin.</li>
                 <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, it can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
               </ul>
-              <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">If you're interested, you can read all about aluminum alloys in Wikipedia.</a></p>
+              <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">You can read all about aluminum alloys in Wikipedia.</a></p>
             </div>
             <div>
               <h4>Titanium</h4>
@@ -113,7 +113,7 @@ function App() {
             </div>
             <div>
               <h4>Bimetal</h4>
-              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is also made out of aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
+              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on (or near) the rims. Sometimes you also see designs where the ring is also made out of aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
             </div>
           </div>
           <h3>Strings</h3>
@@ -154,7 +154,6 @@ function App() {
               <li>Get one of the yoyos that can be played either responsive or unresponsive by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
               <li>Just get two yoyos. One of them can be a cheap responsive and the other can be a nicer one that can also be played unresponsive. Or you could get two different switchable ones, and see what setup you prefer on each, etc. This would also let you try out different shape profiles.</li>
             </ol>
-            {/* putting styling inside a point class element breaks it, not sure why yet */}
             <p className="point">What I <em>don't</em> recommend is trying to learn the basics on a responsive aluminum yoyo. Some people do, but... ouch.</p>
             <h3>Options</h3>
               <div className="content">
@@ -182,7 +181,7 @@ function App() {
             <div>
               <h3 id="lube">Unresponsive lube</h3>
               <ul>
-              <p><b>Should I use thin lube on my unresponsive bearings?</b></p>
+              <p className="question">Should I use thin lube on my unresponsive bearings?</p>
               <li>
                 <p><b>Arguments in favor</b>: Reduced bearing noise, rust protection, theoretical increase in longevity and smoothness.</p>
 
@@ -200,7 +199,7 @@ function App() {
               <h3>Jumping into unresponsive play</h3>
               <div className="content">
                 <div className="primary">
-                  <p><b>Do I really need to do anything with a responsive yoyo, or can I just learn to bind and go straight to unresponsive?</b></p>
+                  <p className="question">Do I really need to do anything with a responsive yoyo, or can I just learn to bind and go straight to unresponsive?</p>
                   <ul>
                     <li>
                       <p><b>Argument in favor of skipping responsive play</b>: It's your yoyo and your time and you can do whatever you want.</p>
@@ -223,7 +222,7 @@ function App() {
             </div>
             <div>
               <h3 id="plastic">Plastic</h3>
-              <p><b>Is plastic as good as aluminum? Why bother with plastic when some aluminum yoyos are so cheap?</b></p>
+              <p className="question">Is plastic as good as aluminum? Why bother with plastic when some aluminum yoyos are so cheap?</p>
               <p>No, plastic is not as good as aluminum, performance-wise. (Yes, you can find excellent plastic yoyos that are better than mediocre aluminum yoyos. That's not the point.) Plastic can work very well, though. Its main advantages over a decent budget/b-grade/pre-owned aluminum yoyo are situational:</p>
               <ul>
                 <li>You're a beginner, or, are otherwise learning something that might cause you to hit yourself or other things a lot (ex: horizontal tricks, 5A tricks).</li>
@@ -235,8 +234,7 @@ function App() {
             </div>
             <div>
               <h3>Shapes</h3>
-              <p><b>Wow, these come in a lot of shapes. Which one is best?</b></p>
-              <p>Yeah, they come in a lot of shapes.</p>
+              <p className="question">Wow, these come in a lot of shapes. Which one is best?</p>
               <ul>
                 <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online, with diagrams, by people more knowledgeable than me, so I'm not repeating it here.)</li>
                 <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles (as opposed to fully rounded), a lot of rim weight, and is often fairly wide. Beyond these, there's an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
@@ -246,8 +244,6 @@ function App() {
             </div>
         </section>
       </main>
-    {/* footer */}
-    {/* need to style footer & think about what else it needs */}
     <footer>
       <p>&copy;2021 Sarah Wilkes</p>
     </footer>

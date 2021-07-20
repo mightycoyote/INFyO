@@ -47,7 +47,6 @@
     header {
         @apply text-complementary-light;
     }
-    /* fix main container */
     main {
         @apply container mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-8;
     }
@@ -72,6 +71,16 @@
     .point::before {
         content: "\2192";
         @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
+    }
+
+    .question {
+        @apply flex;
+        font-style: italic;
+    }
+    .question::before {
+        content: "\01FA80";
+        @apply pr-2 text-2xl relative -top-1;
+        font-style: normal;
     }
 }
 @media (min-width: 900px) {
