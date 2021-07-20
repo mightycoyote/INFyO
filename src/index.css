@@ -8,20 +8,24 @@
         font-family: 'Racing Sans One', cursive;
     }
     h2, h3, h4, h5 {
-        @apply text-secondarytwo-light pt-5 pb-2;
+        @apply text-secondarytwo-light;
     }
     h2 {
-        @apply text-4xl;
+        @apply text-4xl pt-6 pb-2;
     }
     h3 {
-        @apply text-2xl;
+        @apply text-2xl pt-5 pb-2;
     }
     h4, .boxhead {
-        @apply text-xl;
+        @apply text-xl pt-5 pb-2;
     }
     h5 {
-        @apply text-lg;
+        @apply text-lg pt-5 pb-2;
     }
+    /* this isn't going to work, need a class for headers that are followed by headers */
+    /* h2 + h3, h3+ h4, h4 + h5 {
+        @apply pt-1;
+    } */
     body {
         @apply bg-secondaryone-verydark;
     }
@@ -47,6 +51,9 @@
     main {
         @apply container mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-8;
     }
+    footer {
+        @apply container mx-auto mb-4 text-blue-200 text-sm;
+    }
     /* remember to apply .content to sections that have aside boxes */
     .content {
         @apply md:flex items-start pb-2;
@@ -54,7 +61,6 @@
     .primary {
         @apply pr-2;
     }
-    /* fix proportions of aside boxes, probably add titles */
     .box {
         @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
     }
@@ -69,6 +75,7 @@
     }
 }
 @media (min-width: 900px) {
+
     .columns {
         columns: 2;
         column-gap: 2rem;

@@ -117,13 +117,13 @@ function App() {
             </div>
           </div>
           <h3>Strings</h3>
-            <div className="content">
+            <div className="columns">
               <div className="primary">
                 <div>
                   <h4>Cotton</h4> 
                   <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat more likely with cotton, however.</p>
                 </div>
-                <div>
+                <div className="breakafter">
                   <h4>Polyester</h4> 
                   <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
                   <p>The cheapest strings:</p>
@@ -140,7 +140,7 @@ function App() {
                     <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
                   </div>
               </div>
-            <aside className="box">
+            <aside className="box mt-6">
             <span className="boxhead">Thick and thin</span>
               <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
             </aside>
