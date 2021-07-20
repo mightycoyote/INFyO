@@ -30,10 +30,10 @@ function App() {
                   <li><b>Responsive</b>: A yoyo that returns to your hand when you tug on it. </li>
                   <li><b>Unresponsive</b>: A yoyo that doesn't return to your hand when you tug on it. Instead, it's brought back to the hand with a type of trick called a "bind return." The bind causes the yoyo's silicone response pads to grab the string. Most modern string trick yoyos are not responsive, which allows them to spin for a very long time, and opens up many new kinds of tricks.</li>
                 </ul>
-                <p className="point">Most yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
+                <p className="point">Most of the yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
               </div>
               <aside className="box">
-                <span className="boxhead">The ol' switcheroo</span>
+                <span className="boxhead">Switcheroo</span>
                 <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
                 <p>Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they don't come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
               </aside>
@@ -41,12 +41,12 @@ function App() {
             <h4>Playstyles</h4>
             <div className="content">
               <div className="primary">
-                <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby, check them out. Conversationally, the styles are often referred to by their division name.</p>
+                <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby, check them out.</p>
+                {/* <p className="point">The page you're on now is about getting started with basic 1A play: one string trick style yoyo tied to your finger.</p> */}
               </div>
               <aside className="box">
                 <span className="boxhead">The right tools</span>
                 <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles.</p>
-                <p>The page you're on now is about getting started with basic 1A play.</p>
               </aside>
             </div>
           <h3>Guts</h3>  
@@ -54,7 +54,7 @@ function App() {
             <div className="primary">
               <div>
                 <h4>Fixed-axle</h4>
-                <p>Or "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something in the area next to the axle (called the "response area") to create the friction.</p>
+                <p>Also called "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something to the area next to the axle (called the "response area") to create the friction.</p>
               </div>
               <div>
                 <h4>Transaxle</h4>
@@ -88,23 +88,23 @@ function App() {
           <div className="columns">
             <div>
               <h4>Wood</h4>
-              <p>These are usually, but not always, fixed-axle. Decent cheap ones are still available, but you can also find fancier models with features like adjustable axles and pretty hardwoods.</p>
+              <p>These are usually, but not always, fixed-axle. Good cheap ones are available, but you can also find fancier models with features like adjustable axles and nice hardwoods.</p>
             </div>
             <div>
               <h4>Plastic</h4>
-              <p>Plastic yoyos run the gamut from literally unusable dollar-store garbage to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. On the other hand, you can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
+              <p>Plastic yoyos run the gamut from literally unusable dollar-store garbage to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. You can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
             </div>
             <div>
               <h4>Aluminum</h4>
               <ul>
-                <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or, it's of dubious origin.</li>
-                <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, they can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
+                <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or it's of dubious origin.</li>
+                <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, it can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
               </ul>
               <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">If you're interested, you can read all about aluminum alloys in Wikipedia.</a></p>
             </div>
             <div>
               <h4>Titanium</h4>
-              <p>Usually unresponsive, although there are also some responsive slimline titanium yoyos. The advantage of titanium is similar to 7000-series aluminum, only even more so&mdash;it can be machined even thinner, and is very durable. However, it does not perform objectively better than aluminum. (If that were the case, titanium would routinely be used by serious competitors, but it isn't.) They're pricey, and often very limited, and you're not really missing out if you don't have one.</p>
+              <p>Usually unresponsive, although there are also some responsive slimline titanium yoyos. The advantage of titanium is similar to 7000-series aluminum, only even more so&mdash;it can be machined even thinner, and is very durable. However, it does not perform objectively better than aluminum. (If that were the case, titanium would routinely be used by serious competitors, but it isn't.) They're much more expensive than most nice competition bimetals, and often very limited, and you're not really missing out if you don't have one.</p>
               <p className="point">... That said, if you want titanium anyway, one good way to go about it is to keep an eye out for preorder announcements. They're sometimes available used too, of course, but not necessarily at a bargain price.</p>
             </div>
             <div>
@@ -121,11 +121,11 @@ function App() {
               <div className="primary">
                 <div>
                   <h4>Cotton</h4> 
-                  <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat likely with cotton, however.</p>
+                  <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat more likely with cotton, however.</p>
                 </div>
                 <div>
                   <h4>Polyester</h4> 
-                  <p>The standard for most kinds of play. They range from very cheap to quite expensive. Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
+                  <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
                   <p>The cheapest strings:</p>
                     <ol className="list-decimal pl-4">
                       <li>Don't whip well&mdash;that is, they don't have enough body to form a good loop when doing a slack trick.</li>
@@ -136,7 +136,7 @@ function App() {
                   </div>
                   <div>
                     <h4>Nylon or nylon-polyester blend</h4>
-                    <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It tends to be more bouncy and stretch more during play, and whips very fast. It's something of an acquired taste. It also tends to be fairly expensive, but in some cases that's offset by the longevity.</p>
+                    <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It tends to be more bouncy and stretch more during play, and whips very fast. It's something of an acquired taste. It also tends to be fairly expensive, but sometimes that's offset by the longevity.</p>
                     <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
                   </div>
               </div>
@@ -151,8 +151,8 @@ function App() {
             <h3>What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
             <ol className="list-decimal">
-              <li>Get one of the yoyos that can be played either responsive or unresponsive by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you do it a lot.</li>
-              <li>Just get two yoyos. One of them can be a cheap responsive and the other can be a nicer one that can be played unresponsive. Or you could get two different switchable ones, and see what setup you prefer on each, etc. This would also let you try out different shape profiles.</li>
+              <li>Get one of the yoyos that can be played either responsive or unresponsive by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
+              <li>Just get two yoyos. One of them can be a cheap responsive and the other can be a nicer one that can also be played unresponsive. Or you could get two different switchable ones, and see what setup you prefer on each, etc. This would also let you try out different shape profiles.</li>
             </ol>
             {/* putting styling inside a point class element breaks it, not sure why yet */}
             <p className="point">What I <em>don't</em> recommend is trying to learn the basics on a responsive aluminum yoyo. Some people do, but... ouch.</p>
@@ -168,14 +168,14 @@ function App() {
                 <aside className="box">
                 <span className="boxhead">Being prepared</span>
                   <p>The one thing you should definitely buy with your first yoyo is extra string (if you're not getting a package deal that comes with it already). They don't need to be fancy or expensive, and a 100-pack might be overkill, but you do need some.</p>
-                  <p className="point">Many people find dark string too hard to see. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, buy a bright color too so that you have an alternative.</p>
+                  <p className="point">Many people find dark string too hard to see. This can also be true of plain white. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, just get a bright color too.</p>
                 </aside>
               </div>
             <h3>Resources</h3>
               <h4>Videos</h4>
                 <p>There are lots and lots of free online tutorials now, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. (This may seem obvious, but it's actually pretty easy to get so absorbed in a frustrating problem that you forget.)</p>
               <h4>Online communities</h4>
-              <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked from Reddit) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
+              <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
         </section>
         <section>
           <h2>FAQs with somewhat controversial answers</h2>
@@ -185,13 +185,14 @@ function App() {
               <p><b>Should I use thin lube on my unresponsive bearings?</b></p>
               <li>
                 <p><b>Arguments in favor</b>: Reduced bearing noise, rust protection, theoretical increase in longevity and smoothness.</p>
-                <p className="point">Note that people living in some very humid and/or salty climates report that bearing lube isn't really optional for them. The bearings really do rust otherwise.</p>
+
               </li>
               <li>
                 <p><b>Arguments against</b>: Makes bearing slower or responsive, attracts crud, does not actually improve longevity, is a waste of time and money.</p>
+                <p className="point">Note that people living in some very humid and/or salty climates report that bearing lube isn't really optional for them. The bearings really do rust otherwise.</p>
               </li>
               <li>
-                <p><b>My opinion</b>: Feel free to use thin lube, for noisy bearings at the very least. Use a pin or similar to apply a very small amount, ideally less than a drop. I've seen some instructions telling people to put in way too much. Too much does make the bearing semi-responsive, and then you'd need to clean it and start over.</p>
+                <p><b>My opinion</b>: Feel free to use thin lube, for noisy or rough-feeling bearings at the very least. Use a pin or similar to apply a very small amount, ideally less than a drop. I've seen some instructions telling people to put in way too much. Too much does make the bearing semi-responsive, and then you'd need to <a href="https://www.google.com/search?q=how%20to%20clean%20a%20yoyo%20bearing">clean it</a> and start over.</p>
               </li>
               </ul>
             </div>
@@ -221,7 +222,7 @@ function App() {
 
             </div>
             <div>
-              <h3>Plastic</h3>
+              <h3 id="plastic">Plastic</h3>
               <p><b>Is plastic as good as aluminum? Why bother with plastic when some aluminum yoyos are so cheap?</b></p>
               <p>No, plastic is not as good as aluminum, performance-wise. (Yes, you can find excellent plastic yoyos that are better than mediocre aluminum yoyos. That's not the point.) Plastic can work very well, though. Its main advantages over a decent budget/b-grade/pre-owned aluminum yoyo are situational:</p>
               <ul>
