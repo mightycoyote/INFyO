@@ -23,7 +23,7 @@ function App() {
         </section>
         <section>
           <h2>Modern yoyo basics</h2>
-          <h3>Behavior</h3>
+          <h3 className="headersgap">Behavior</h3>
             <div className="content">
               <div className="primary">
                 <ul>
@@ -53,7 +53,7 @@ function App() {
           <div className="content">
             <div className="primary">
               <div>
-                <h4>Fixed-axle</h4>
+                <h4 className="headersgap">Fixed-axle</h4>
                 <p>Also called "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something to the area next to the axle (called the "response area") to create the friction.</p>
               </div>
               <div>
@@ -87,7 +87,7 @@ function App() {
           <h3>Materials</h3>
           <div className="columns">
             <div>
-              <h4>Wood</h4>
+              <h4 className="headersgap">Wood</h4>
               <p>These are usually, but not always, fixed-axle. Good cheap ones are available, but you can also find fancier models with features like adjustable axles and nice hardwoods.</p>
             </div>
             <div>
@@ -100,7 +100,7 @@ function App() {
                 <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or it's of dubious origin.</li>
                 <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, it can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
               </ul>
-              <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">You can read all about aluminum alloys in Wikipedia.</a></p>
+              <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">Read all about aluminum alloys in Wikipedia.</a></p>
             </div>
             <div>
               <h4>Titanium</h4>
@@ -113,14 +113,14 @@ function App() {
             </div>
             <div>
               <h4>Bimetal</h4>
-              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on (or near) the rims. Sometimes you also see designs where the ring is also made out of aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
+              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is also made out of aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
             </div>
           </div>
           <h3>Strings</h3>
             <div className="columns">
               <div className="primary">
                 <div>
-                  <h4>Cotton</h4> 
+                  <h4 className="headersgap">Cotton</h4> 
                   <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat more likely with cotton, however.</p>
                 </div>
                 <div className="breakafter">
@@ -148,7 +148,7 @@ function App() {
         </section>
         <section>
           <h2>Getting started</h2>
-            <h3>What yoyo should I buy?</h3>
+            <h3 className="headersgap">What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
             <ol className="list-decimal">
               <li>Get one of the yoyos that can be played either responsive or unresponsive by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
@@ -171,7 +171,7 @@ function App() {
                 </aside>
               </div>
             <h3>Resources</h3>
-              <h4>Videos</h4>
+              <h4 className="headersgap">Videos</h4>
                 <p>There are lots and lots of free online tutorials now, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. (This may seem obvious, but it's actually pretty easy to get so absorbed in a frustrating problem that you forget.)</p>
               <h4>Online communities</h4>
               <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
@@ -179,7 +179,7 @@ function App() {
         <section>
           <h2>FAQs with somewhat controversial answers</h2>
             <div>
-              <h3 id="lube">Unresponsive lube</h3>
+              <h3 id="lube" className="headersgap">Unresponsive lube</h3>
               <ul>
               <p className="question">Should I use thin lube on my unresponsive bearings?</p>
               <li>

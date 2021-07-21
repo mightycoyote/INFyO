@@ -8,24 +8,20 @@
         font-family: 'Racing Sans One', cursive;
     }
     h2, h3, h4, h5 {
-        @apply text-secondarytwo-light;
+        @apply text-secondarytwo-light pt-6 pb-2;
     }
     h2 {
-        @apply text-4xl pt-6 pb-2;
+        @apply text-4xl;
     }
     h3 {
-        @apply text-2xl pt-5 pb-2;
+        @apply text-2xl;
     }
     h4, .boxhead {
-        @apply text-xl pt-5 pb-2;
+        @apply text-xl;
     }
     h5 {
-        @apply text-lg pt-5 pb-2;
+        @apply text-lg;
     }
-    /* this isn't going to work, need a class for headers that are followed by headers */
-    /* h2 + h3, h3+ h4, h4 + h5 {
-        @apply pt-1;
-    } */
     body {
         @apply bg-secondaryone-verydark;
     }
@@ -63,6 +59,9 @@
     .box {
         @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
     }
+    .headersgap {
+        @apply pt-3;
+    }
 
     /* flex here makes the text line up vertically instead of wrapping around the arrow */
     .point {
@@ -72,7 +71,6 @@
         content: "\2192";
         @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
     }
-
     .question {
         @apply flex;
         font-style: italic;
