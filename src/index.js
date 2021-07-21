@@ -172,7 +172,7 @@ function App() {
               </div>
             <h3>Resources</h3>
               <h4 className="headersgap">Videos</h4>
-                <p>There are lots and lots of free online tutorials now, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. (This may seem obvious, but it's actually pretty easy to get so absorbed in a frustrating problem that you forget.)</p>
+                <p>There are lots and lots of free online tutorials, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it.</p>
               <h4>Online communities</h4>
               <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
         </section>
@@ -215,7 +215,7 @@ function App() {
                 </div>
                 <aside className="box">
                   <span className="boxhead">Not a destination</span>
-                  <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's good to have one of each available when you're ready to start messing around with unresponsive play.</p>
+                  <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
                 </aside>
               </div>
 
@@ -237,9 +237,9 @@ function App() {
               <p className="question">Wow, these come in a lot of shapes. Which one is best?</p>
               <ul>
                 <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online by people more knowledgeable than me, so I'm not repeating it here. A good one is on the <a href="https://www.yanasiyoyo.com/blog/2018/1/22/the-shape-of-things">Yanasi Yoyo blog</a>.)</li>
-                <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles, a lot of rim weight, and is often fairly wide. Beyond these, there's an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
-                <li>When you're new, it's easy to get the idea that you'll always want to play with performance-oriented yoyos. That's true to an extent when you're starting out or working on something new&mdash;it's easier to land and figure out the tricks you're learning. Just don't be surprised if your taste in yoyos evolves over time, or even day to day, after you've been playing for a while.</li>
-                <li>The specific shape you get for your first yoyo doesn't matter much.</li>
+                <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles, a lot of rim weight, and is often fairly wide. Beyond these, there are an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
+                <li>When you're new, it's easy to get the idea that you'll always want to play with the most performance-oriented yoyos you can get. That's true to an extent when you're working on something new&mdash;it's easier to land and figure out the tricks you're learning. Just don't be surprised if your taste in yoyos evolves over time, or even day to day, after you've been playing for a while.</li>
+                <li>The specific shape you get for your first yoyo doesn't matter much. Get one you want to play with.</li>
               </ul>
             </div>
         </section>
