@@ -103,7 +103,7 @@ function App() {
               <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">Read all about aluminum alloys in Wikipedia.</a></p>
             </div>
             <div>
-              <h4>Titanium</h4>
+              <h4 className="headersgap">Titanium</h4>
               <p>Usually unresponsive, although there are also some responsive slimline titanium yoyos. The advantage of titanium is similar to 7000-series aluminum, only even more so&mdash;it can be machined even thinner, and is very durable. However, it does not perform objectively better than aluminum. (If that were the case, titanium would routinely be used by serious competitors, but it isn't.) They're much more expensive than most nice competition bimetals, and often very limited, and you're not really missing out if you don't have one.</p>
               <p className="point">... That said, if you want titanium anyway, one good way to go about it is to keep an eye out for preorder announcements. They're sometimes available used too, of course, but not necessarily at a bargain price.</p>
             </div>
@@ -135,7 +135,7 @@ function App() {
                     </ol>
                   </div>
                   <div>
-                    <h4>Nylon or nylon-polyester blend</h4>
+                    <h4 className="headersgap">Nylon or nylon-polyester blend</h4>
                     <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It tends to be more bouncy and stretch more during play, and whips very fast. It's something of an acquired taste. It also tends to be fairly expensive, but sometimes that's offset by the longevity.</p>
                     <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
                   </div>
@@ -236,8 +236,8 @@ function App() {
               <h3>Shapes</h3>
               <p className="question">Wow, these come in a lot of shapes. Which one is best?</p>
               <ul>
-                <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online, with diagrams, by people more knowledgeable than me, so I'm not repeating it here.)</li>
-                <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles (as opposed to fully rounded), a lot of rim weight, and is often fairly wide. Beyond these, there's an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
+                <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online by people more knowledgeable than me, so I'm not repeating it here. A good one is on the <a href="https://www.yanasiyoyo.com/blog/2018/1/22/the-shape-of-things">Yanasi Yoyo blog</a>.)</li>
+                <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles, a lot of rim weight, and is often fairly wide. Beyond these, there's an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
                 <li>When you're new, it's easy to get the idea that you'll always want to play with performance-oriented yoyos. That's true to an extent when you're starting out or working on something new&mdash;it's easier to land and figure out the tricks you're learning. Just don't be surprised if your taste in yoyos evolves over time, or even day to day, after you've been playing for a while.</li>
                 <li>The specific shape you get for your first yoyo doesn't matter much.</li>
               </ul>

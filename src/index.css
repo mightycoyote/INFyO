@@ -47,7 +47,7 @@
         @apply container mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-8;
     }
     footer {
-        @apply container mx-auto mb-4 text-blue-200 text-sm;
+        @apply container mx-auto mb-4 text-blue-400 text-sm;
     }
     /* remember to apply .content to sections that have aside boxes */
     .content {
