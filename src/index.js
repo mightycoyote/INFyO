@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import headerpic from './img/yoyo-topdown.jpg';
+import Img from './js/img';
+import freehand from './img/speedaholic-freehand.jpg';
 
 function App() {
   return (
@@ -32,8 +33,8 @@ function App() {
                 </ul>
                 <p className="point">Most of the yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
               </div>
-              <aside className="box">
-                <span className="boxhead">Switcheroo</span>
+              <aside id="both" className="box">
+                <span className="boxhead">Having it both ways</span>
                 <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
                 <p>Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they don't come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
               </aside>
@@ -42,7 +43,7 @@ function App() {
             <div className="content">
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby, check them out.</p>
-                {/* <p className="point">The page you're on now is about getting started with basic 1A play: one string trick style yoyo tied to your finger.</p> */}
+                <Img src={freehand} alt="Yoyo with counterweight attached" caption="A freehand or '5A' setup. Pictured: C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight." />
               </div>
               <aside className="box">
                 <span className="boxhead">The right tools</span>
@@ -113,7 +114,7 @@ function App() {
             </div>
             <div>
               <h4>Bimetal</h4>
-              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is also made out of aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
+              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is made out of more aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
             </div>
           </div>
           <h3>Strings</h3>
@@ -151,7 +152,7 @@ function App() {
             <h3 className="headersgap">What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
             <ol className="list-decimal">
-              <li>Get one of the yoyos that can be played either responsive or unresponsive by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
+              <li>Get one of the yoyos <a href="both">that can be played either responsive or unresponsive</a> by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
               <li>Just get two yoyos. One of them can be a cheap responsive and the other can be a nicer one that can also be played unresponsive. Or you could get two different switchable ones, and see what setup you prefer on each, etc. This would also let you try out different shape profiles.</li>
             </ol>
             <p className="point">What I <em>don't</em> recommend is trying to learn the basics on a responsive aluminum yoyo. Some people do, but... ouch.</p>
@@ -184,7 +185,6 @@ function App() {
               <p className="question">Should I use thin lube on my unresponsive bearings?</p>
               <li>
                 <p><b>Arguments in favor</b>: Reduced bearing noise, rust protection, theoretical increase in longevity and smoothness.</p>
-
               </li>
               <li>
                 <p><b>Arguments against</b>: Makes bearing slower or responsive, attracts crud, does not actually improve longevity, is a waste of time and money.</p>

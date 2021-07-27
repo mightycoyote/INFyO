@@ -37,6 +37,9 @@
     a {
         @apply underline text-primary focus:text-complementary-verydark;
     }
+    /* img {
+        @apply block;
+    } */
 }
 
 @layer components {
