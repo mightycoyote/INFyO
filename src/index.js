@@ -4,7 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import headerpic from './img/yoyo-topdown.jpg';
 import Img from './js/img';
+import terrarian from './img/terrarian-assembled.jpg';
+import spinstar from './img/spinstar-assembled.jpg';
 import freehand from './img/speedaholic-freehand.jpg';
+import transaxle from './img/spinstar-inside.jpg';
+import bearing from './img/terrarian-inside.jpg';
+import starters from './img/starters.jpg';
 
 function App() {
   return (
@@ -32,6 +37,7 @@ function App() {
                   <li><b>Unresponsive</b>: A yoyo that doesn't return to your hand when you tug on it. Instead, it's brought back to the hand with a type of trick called a "bind return." The bind causes the yoyo's silicone response pads to grab the string. Most modern string trick yoyos are not responsive, which allows them to spin for a very long time, and opens up many new kinds of tricks.</li>
                 </ul>
                 <p className="point">Most of the yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
+                <Img src={terrarian} alt="One Drop Legendary Terrarian yoyo" caption="A modern unresponsive ball bearing yoyo (One Drop YoYos Legendary Terrarian)." />
               </div>
               <aside id="both" className="box">
                 <span className="boxhead">Having it both ways</span>
@@ -43,7 +49,7 @@ function App() {
             <div className="content">
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby, check them out.</p>
-                <Img src={freehand} alt="Yoyo with counterweight attached" caption="A freehand or '5A' setup. Pictured: C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight." />
+                <Img src={freehand} alt="Yoyo with counterweight attached" caption="A freehand or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
               </div>
               <aside className="box">
                 <span className="boxhead">The right tools</span>
@@ -60,15 +66,18 @@ function App() {
               <div>
                 <h4>Transaxle</h4>
                 <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic).</p>
+                <Img src={transaxle} alt="Inside of a transaxle yoyo" />
               </div>  
               <div>
                 <h4>Ball bearing</h4> 
                 <p>Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</p>
+                <Img src={bearing} alt="Inside of a ball bearing yoyo" />
               </div>
             </div>
             <aside className="box">
               <span className="boxhead">Keeping it simple</span>
               <p>Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
+              <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="A transaxle yoyo (YoYoFactory Spinstar)." />
             </aside>
           </div>
           <h5>String trick yoyo bearings</h5>
@@ -164,6 +173,7 @@ function App() {
                     <li>Plastic yoyos that are marketed as good for both beginner and advanced play, come with both the half spec and C bearing, and look cool to you.</li>
                     <li>Look on yoyo forums to see what people are recommending currently, or ask. The tricky part is that not everything is always available, so you can ask for help choosing among your <em>current</em> options too. People's favorite recommendations aren't always in stock.</li>
                   </ol>
+                  <Img src={starters} alt="Three plastic yoyos" caption="A few yoyos that take both responsive and unresponsive bearings (left to right: YoYoFactory Arrow, Recess First Base, iYoyo Shooting Star)." />
                 </div>
                 <aside className="box">
                 <span className="boxhead">Being prepared</span>
