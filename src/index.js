@@ -16,7 +16,7 @@ function App() {
     <div>
     {/* header */}
        <header className="bg-secondaryone-verydark">
-        <div className="container mx-auto w-6/12 p-8">
+        <div className="mx-auto w-6/12 p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
           <h1 className="inline-block align-middle pl-4 text-6xl">INF-yO</h1>
           <p className="pt-2 text-lg">Stuff I wish I knew sooner about modern yoyos</p>
@@ -25,7 +25,7 @@ function App() {
     {/* content */}
       <main>
         <section>
-          <p className="point">There are tons of tutorials on getting started, tricks, and maintenance&mdash;they're easy to find, and I'm not repeating them here. This is just a guide to some of the things that weren't always clear to me as a beginner.</p>
+          <p className="point">There are tons of tutorials on getting started, tricks, and maintenance&mdash;they're easy to find, and I'm not repeating them here. This is just a guide to some of the things that weren't always clear to me when I first encountered modern yoyos.</p>
         </section>
         <section>
           <h2>Modern yoyo basics</h2>
@@ -48,7 +48,7 @@ function App() {
             <h4>Playstyles</h4>
             <div className="content">
               <div className="primary">
-                <p>There are five main styles of play as reflected by the official <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">contest divisions</a>. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby, check them out.</p>
+                <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
                 <Img src={freehand} alt="Yoyo with counterweight attached" caption="A freehand or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
               </div>
               <aside className="box">
@@ -66,24 +66,24 @@ function App() {
               <div>
                 <h4>Transaxle</h4>
                 <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic).</p>
-                <Img src={transaxle} alt="Inside of a transaxle yoyo" />
+                <Img src={transaxle} alt="Inside of a transaxle yoyo" caption="The guts of a transaxle yoyo with starburst response."/>
               </div>  
               <div>
                 <h4>Ball bearing</h4> 
                 <p>Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</p>
-                <Img src={bearing} alt="Inside of a ball bearing yoyo" />
+                <Img src={bearing} alt="Inside of a ball bearing yoyo" caption="The guts of a ball bearing yoyo with silicone response." />
               </div>
             </div>
             <aside className="box">
               <span className="boxhead">Keeping it simple</span>
               <p>Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
-              <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="A transaxle yoyo (YoYoFactory Spinstar)." />
+              <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="An inexpensive transaxle yoyo (YoYoFactory Spinstar)." />
             </aside>
           </div>
           <h5>String trick yoyo bearings</h5>
           <div className="content">
             <div className="primary">
-              <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider cousin the "C" bearing for unresponsive play.</p>
+              <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
               <ul>
                 <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When one comes installed in your new beginner-friendly yoyo, it's usually been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more.</li> 
                 <li><b>"C" bearings</b> <a href="#lube">can be played without lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it, instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane. Centering bearings are popular for good reason, but bearing shape is also a matter of personal preference, and not all yoyos work equally well with all shapes.</li>
@@ -146,7 +146,7 @@ function App() {
                   </div>
                   <div>
                     <h4 className="headersgap">Nylon or nylon-polyester blend</h4>
-                    <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It tends to be more bouncy and stretch more during play, and whips very fast. It's something of an acquired taste. It also tends to be fairly expensive, but sometimes that's offset by the longevity.</p>
+                    <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. It's something of an acquired taste, but has a devoted following. It also tends to be fairly expensive, but that can be offset by the longevity.</p>
                     <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
                   </div>
               </div>
@@ -173,7 +173,7 @@ function App() {
                     <li>Plastic yoyos that are marketed as good for both beginner and advanced play, come with both the half spec and C bearing, and look cool to you.</li>
                     <li>Look on yoyo forums to see what people are recommending currently, or ask. The tricky part is that not everything is always available, so you can ask for help choosing among your <em>current</em> options too. People's favorite recommendations aren't always in stock.</li>
                   </ol>
-                  <Img src={starters} alt="Three plastic yoyos" caption="A few yoyos that take both responsive and unresponsive bearings (left to right: YoYoFactory Arrow, Recess First Base, iYoyo Shooting Star)." />
+                  <Img src={starters} alt="Three plastic yoyos" caption="A few plastic yoyos that come packaged with both responsive and unresponsive bearings (left to right: YoYoFactory Arrow, Recess First Base, iYoYo Shooting Star)." />
                 </div>
                 <aside className="box">
                 <span className="boxhead">Being prepared</span>

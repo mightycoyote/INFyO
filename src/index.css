@@ -37,9 +37,6 @@
     a {
         @apply underline text-primary focus:text-complementary-verydark;
     }
-    /* img {
-        @apply block;
-    } */
 }
 
 @layer components {
@@ -47,10 +44,22 @@
         @apply text-complementary-light;
     }
     main {
-        @apply container mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-8;
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-4;
     }
     footer {
-        @apply container mx-auto mb-4 text-blue-400 text-sm;
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-blue-400 text-sm;
+    }
+    figure {
+        @apply bg-white mx-4 my-2 p-5 max-w-md;
+    }
+    figure img {
+        @apply w-full h-full object-cover;
+    }
+    figcaption {
+        @apply pt-2 italic;
+    }
+    .box figcaption {
+        @apply text-gray-900;
     }
     /* remember to apply .content to sections that have aside boxes */
     .content {
