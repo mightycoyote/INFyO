@@ -15,17 +15,17 @@ function App() {
   return (
     <div>
     {/* header */}
-       <header className="bg-secondaryone-verydark">
-        <div className="mx-auto w-6/12 p-8">
+       <header className="bg-secondaryone-verydark flex">
+        <div className="mx-auto p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
-          <h1 className="inline-block align-middle pl-4 text-6xl">INF-yO</h1>
-          <p className="pt-2 text-lg">Stuff I wish I knew sooner about modern yoyos</p>
+          <h1 className="inline-block align-middle pl-4 text-6xl md:text-8xl">INF-yO</h1>
+          <p className="pt-2 text-lg md:text-2xl">Stuff I wish I knew sooner about modern yoyos</p>
         </div>
       </header>
     {/* content */}
       <main>
         <section>
-          <p className="point">There are tons of tutorials on getting started, tricks, and maintenance&mdash;they're easy to find, and I'm not repeating them here. This is just a guide to some of the things that weren't always clear to me when I first encountered modern yoyos.</p>
+          <p className="point">There are tons of tutorials for getting started, tricks, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an overview of the things I found confusing or unclear when I was brand-new to the hobby.</p>
         </section>
         <section>
           <h2>Modern yoyo basics</h2>
@@ -42,13 +42,14 @@ function App() {
               <aside id="both" className="box">
                 <span className="boxhead">Having it both ways</span>
                 <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
-                <p>Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they don't come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
+                <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they don't like to come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
               </aside>
             </div>
             <h4>Playstyles</h4>
             <div className="content">
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
+                {/* <p className="point">This page is about getting started with basic 1A play.</p> */}
                 <Img src={freehand} alt="Yoyo with counterweight attached" caption="A freehand or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
               </div>
               <aside className="box">
@@ -61,11 +62,11 @@ function App() {
             <div className="primary">
               <div>
                 <h4 className="headersgap">Fixed-axle</h4>
-                <p>Also called "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. (Don't worry, people still play with these.) Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something to the area next to the axle (called the "response area") to create the friction.</p>
+                <p>Also called "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something to the area next to the axle (called the "response area") to create the friction.</p>
               </div>
               <div>
                 <h4>Transaxle</h4>
-                <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic).</p>
+                <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic that radiate outward).</p>
                 <Img src={transaxle} alt="Inside of a transaxle yoyo" caption="The guts of a transaxle yoyo with starburst response."/>
               </div>  
               <div>
@@ -85,13 +86,13 @@ function App() {
             <div className="primary">
               <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
               <ul>
-                <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When one comes installed in your new beginner-friendly yoyo, it may have been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more. Fortunately, household 3-in-1 oil works fine for this.</li> 
+                <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When a half-spec comes installed in your new beginner-friendly yoyo, it may have been lubed already, but eventually it might stop returning easily with a tug and you'll have to add more. Fortunately, household 3-in-1 oil works fine for this.</li> 
                 <li><b>"C" bearings</b> <a href="#lube">can be played without lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it, instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane. Centering bearings are popular for good reason, but bearing shape is also a matter of personal preference, and not all yoyos work equally well with all shapes.</li>
               </ul>
             </div>
             <aside className="box">
             <span className="boxhead">Big and small</span>
-              <p>Manufacturers do still make string trick yoyos that take bearings other than "C"&mdash;typically "D" or "A". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)</p>
+              <p>Manufacturers do still make some string trick yoyos that take bearings other than "C"&mdash;typically "D" or "A". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)</p>
             </aside>
           </div>
           <h3>Materials</h3>
@@ -102,7 +103,7 @@ function App() {
             </div>
             <div>
               <h4>Plastic</h4>
-              <p>Plastic yoyos run the gamut from literally unusable dollar-store garbage to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. You can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
+              <p>Plastic yoyos run the gamut from literally unusable discount-store trash to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. You can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
             </div>
             <div>
               <h4>Aluminum</h4>
@@ -131,7 +132,7 @@ function App() {
               <div className="primary">
                 <div>
                   <h4 className="headersgap">Cotton</h4> 
-                  <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;generally they become unusable in other ways before then. Breakage is somewhat more likely with cotton, however.</p>
+                  <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
                 </div>
                 <div className="breakafter">
                   <h4>Polyester</h4> 
@@ -161,7 +162,7 @@ function App() {
             <h3 className="headersgap">What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
             <ol className="list-decimal">
-              <li>Get one of the yoyos <a href="both">that can be played either responsive or unresponsive</a> by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
+              <li>Get one of the yoyos <a href="#both">that can be played either responsive or unresponsive</a> by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
               <li>Just get two yoyos. One of them can be a cheap responsive and the other can be a nicer one that can also be played unresponsive. Or you could get two different switchable ones, and see what setup you prefer on each, etc. This would also let you try out different shape profiles.</li>
             </ol>
             <p className="point">What I <em>don't</em> recommend is trying to learn the basics on a responsive aluminum yoyo. Some people do, but... ouch.</p>
@@ -197,8 +198,8 @@ function App() {
                 <p><b>Arguments in favor</b>: Reduced bearing noise, rust protection, improved smoothness, theoretical increase in longevity.</p>
               </li>
               <li>
-                <p><b>Arguments against</b>: Makes bearing slower or responsive, attracts crud, does not actually improve longevity, is a waste of time and money.</p>
-                <p className="point">Note that people living in some very humid and/or salty climates report that bearing lube isn't really optional for them. The bearings really do rust otherwise.</p>
+                <p><b>Arguments against</b>: Makes bearing slower or responsive, attracts crud, does not actually improve longevity, is a waste of time.</p>
+                <p className="point">People living in some very humid and/or salty climates report that bearing lube isn't really optional for them. Bearings tend to rust otherwise.</p>
               </li>
               <li>
                 <p><b>My opinion</b>: Feel free to use thin lube, for noisy or rough-feeling bearings at the very least. Use a pin or similar to apply a very small amount, ideally less than a drop. I've seen some instructions telling people to put in way too much. Too much does make the bearing semi-responsive, and then you'd need to <a href="https://www.google.com/search?q=how%20to%20clean%20a%20yoyo%20bearing">clean it</a> and start over.</p>
@@ -240,6 +241,17 @@ function App() {
                 <li>You're playing somewhere cold. Plastic is much more forgiving on cold hands. </li>
                 <li>You want a cheap, easily-replaceable yoyo due to the chance of it getting lost or stolen where you're going (school or summer camp being prime examples).</li>
                 <li>You feel like playing with a plastic yoyo.</li>
+              </ul>
+            </div>
+            <div>
+              <h3 id="changingstrings">Changing strings</h3>
+              <p className="question">How do I know when it's time to change strings?</p>
+              <p>This is, alas, another highly subjective question. However, for polyester it might be any or all of these:</p>
+              <ul>
+                <li>It twists up on itself more than it used to, making it difficult and annoying to manage the string tension.</li>
+                <li>It doesn't bind reliably.</li>
+                <li>It feels sort of dead&mdash;flat and unbouncy.</li>
+                <li>It looks dirty and gross. Some people have sweatier hands than others. If your good poly strings are getting gross before they're wearing out, you can sometimes extend their life by washing them.</li>
               </ul>
             </div>
             <div>

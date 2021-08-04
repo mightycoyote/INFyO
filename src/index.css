@@ -28,12 +28,6 @@
     ul {
         @apply list-disc;
     }
-    li {
-        @apply ml-6 pb-1;
-    }
-    p {
-        @apply p-1;
-    }
     a {
         @apply underline text-primary focus:text-complementary-verydark;
     }
@@ -74,9 +68,22 @@
     .headersgap {
         @apply pt-3;
     }
-
-    /* flex here makes the text line up vertically instead of wrapping around the arrow */
-    .point {
+    .question {
+        font-style: italic;
+    }
+}
+@media (min-width: 640px) {
+    li {
+        @apply ml-6 pb-1;
+    }
+    p {
+        @apply p-1;
+    }
+    
+}
+@media (min-width: 768px) {
+   /* flex here makes the text line up vertically instead of wrapping around the arrow */
+   .point {
         @apply flex;
     }
     .point::before {
@@ -85,7 +92,6 @@
     }
     .question {
         @apply flex;
-        font-style: italic;
     }
     .question::before {
         content: "\01FA80";
@@ -93,7 +99,7 @@
         font-style: normal;
     }
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
 
     .columns {
         columns: 2;
