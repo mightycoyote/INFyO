@@ -77,7 +77,7 @@ function App() {
             <aside className="box">
               <span className="boxhead">Keeping it simple</span>
               <p>Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
-              <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="An inexpensive transaxle yoyo (YoYoFactory Spinstar)." />
+              <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="A transaxle yoyo (YoYoFactory Spinstar)." />
             </aside>
           </div>
           <h5>String trick yoyo bearings</h5>
@@ -85,7 +85,7 @@ function App() {
             <div className="primary">
               <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
               <ul>
-                <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When one comes installed in your new beginner-friendly yoyo, it's usually been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more.</li> 
+                <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When one comes installed in your new beginner-friendly yoyo, it may have been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more. Fortunately, household 3-in-1 oil works fine for this.</li> 
                 <li><b>"C" bearings</b> <a href="#lube">can be played without lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it, instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane. Centering bearings are popular for good reason, but bearing shape is also a matter of personal preference, and not all yoyos work equally well with all shapes.</li>
               </ul>
             </div>
@@ -177,13 +177,13 @@ function App() {
                 </div>
                 <aside className="box">
                 <span className="boxhead">Being prepared</span>
-                  <p>The one thing you should definitely buy with your first yoyo is extra string (if you're not getting a package deal that comes with it already). They don't need to be fancy or expensive, and a 100-pack might be overkill, but you do need some.</p>
+                  <p>The one thing you should definitely buy with your first yoyo is extra string (if you're not getting a package deal that comes with it already). They don't need to be fancy or expensive, and a 100-pack might be overkill, but you do need some. When I bought my first yoyo, I had no idea the strings would wear out so fast (typically an hour or two).</p>
                   <p className="point">Many people find dark string too hard to see. This can also be true of plain white. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, just get a bright color too.</p>
                 </aside>
               </div>
             <h3>Resources</h3>
               <h4 className="headersgap">Videos</h4>
-                <p>There are lots and lots of free online tutorials, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it.</p>
+                <p>There are lots and lots of free online tutorials, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. This may seem obvious, but it's easy to forget when you're feeling frustrated.</p>
               <h4>Online communities</h4>
               <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
         </section>
@@ -194,7 +194,7 @@ function App() {
               <ul>
               <p className="question">Should I use thin lube on my unresponsive bearings?</p>
               <li>
-                <p><b>Arguments in favor</b>: Reduced bearing noise, rust protection, theoretical increase in longevity and smoothness.</p>
+                <p><b>Arguments in favor</b>: Reduced bearing noise, rust protection, improved smoothness, theoretical increase in longevity.</p>
               </li>
               <li>
                 <p><b>Arguments against</b>: Makes bearing slower or responsive, attracts crud, does not actually improve longevity, is a waste of time and money.</p>
@@ -249,7 +249,7 @@ function App() {
                 <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online by people more knowledgeable than me, so I'm not repeating it here. A good one is on the <a href="https://www.yanasiyoyo.com/blog/2018/1/22/the-shape-of-things">Yanasi Yoyo blog</a>.)</li>
                 <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles, a lot of rim weight, and is often fairly wide. Beyond these, there are an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
                 <li>When you're new, it's easy to get the idea that you'll always want to play with the most performance-oriented yoyos you can get. That's true to an extent when you're working on something new&mdash;it's easier to land and figure out the tricks you're learning. Just don't be surprised if your taste in yoyos evolves over time, or even day to day, after you've been playing for a while.</li>
-                <li>The specific shape you get for your first yoyo doesn't matter much. Get one you want to play with.</li>
+                <li>The specific shape you get for your first yoyo doesn't matter much. Get the one you want to play with.</li>
               </ul>
             </div>
         </section>
