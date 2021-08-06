@@ -22,6 +22,7 @@
     h5 {
         @apply text-lg;
     }
+    /* TW docs recommend "body" styles be done in the html, but that doesn't work in Create-React-App */
     body {
         @apply bg-secondaryone-verydark;
     }
@@ -30,18 +31,6 @@
     }
     a {
         @apply underline text-primary focus:text-complementary-verydark;
-    }
-}
-
-@layer components {
-    header {
-        @apply text-complementary-light;
-    }
-    main {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-4;
-    }
-    footer {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-blue-400 text-sm;
     }
     figure {
         @apply bg-white mx-4 my-2 p-5 max-w-md;
@@ -55,15 +44,20 @@
     .box figcaption {
         @apply text-gray-900;
     }
-    /* remember to apply .content to sections that have aside boxes */
-    .content {
-        @apply md:flex items-start pb-2;
+    @media (min-width: 640px) {
+        li {
+            @apply ml-6 pb-1;
+        }
+        p {
+            @apply p-1;
+        }
     }
-    .primary {
-        @apply pr-2;
-    }
+}
+
+@layer components {
+
     .box {
-        @apply bg-secondarytwo-light rounded text-white mx-4 my-2 p-5;
+        @apply bg-secondarytwo-light text-white p-5;
     }
     .headersgap {
         @apply pt-3;
@@ -71,41 +65,44 @@
     .question {
         font-style: italic;
     }
-}
-@media (min-width: 640px) {
-    li {
-        @apply ml-6 pb-1;
-    }
-    p {
-        @apply p-1;
-    }
-    
-}
-@media (min-width: 768px) {
-   /* flex here makes the text line up vertically instead of wrapping around the arrow */
-   .point {
-        @apply flex;
-    }
-    .point::before {
-        content: "\2192";
-        @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
-    }
-    .question {
-        @apply flex;
-    }
-    .question::before {
-        content: "\01FA80";
-        @apply pr-2 text-2xl relative -top-1;
-        font-style: normal;
-    }
-}
-@media (min-width: 1024px) {
+    @media (min-width: 768px) {
+    /* remember to apply .content to sections that have aside boxes */
+        .content {
+            @apply md:flex items-start pb-2;
+        }
+        .primary {
+            @apply pr-2;
+        }
+        .box {
+            @apply rounded mx-4 my-2;
+        }
+        /* flex here makes the text line up vertically instead of wrapping around the arrow */
+        .point {
+             @apply flex;
+         }
+         .point::before {
+             content: "\2192";
+             @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
+         }
+         .question {
+             @apply flex;
+         }
+         .question::before {
+             content: "\01FA80";
+             @apply pr-2 text-2xl relative -top-1;
+             font-style: normal;
+         }
+     }
+     @media (min-width: 1024px) {
 
-    .columns {
-        columns: 2;
-        column-gap: 2rem;
-    }
-    .breakafter {
-        break-after: column;
+        .columns {
+            columns: 2;
+            column-gap: 2rem;
+        }
+        .breakafter {
+            break-after: column;
+        }
     }
 }
+
+

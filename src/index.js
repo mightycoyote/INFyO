@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
     {/* header */}
-       <header className="bg-secondaryone-verydark flex">
+       <header className="bg-secondaryone-verydark text-complementary-light flex">
         <div className="mx-auto p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
           <h1 className="inline-block align-middle pl-4 text-6xl md:text-8xl">INF-yO</h1>
@@ -23,9 +23,9 @@ function App() {
         </div>
       </header>
     {/* content */}
-      <main>
+      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-4">
         <section>
-          <p className="point">There are tons of tutorials for getting started, tricks, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an overview of the things I found confusing or unclear when I was brand-new to the hobby.</p>
+          <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an explanation of the things I found confusing when I was starting out.</p>
         </section>
         <section>
           <h2>Modern yoyo basics</h2>
@@ -266,7 +266,7 @@ function App() {
             </div>
         </section>
       </main>
-    <footer>
+    <footer className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-blue-400 text-sm">
       <p>&copy;2021 Sarah Wilkes</p>
     </footer>
     </div>
