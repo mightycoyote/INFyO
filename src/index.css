@@ -26,8 +26,14 @@
     body {
         @apply bg-secondaryone-verydark;
     }
+    p {
+        @apply py-1;
+    }
     ul {
         @apply list-disc;
+    }
+    li {
+        @apply ml-6 pb-1;
     }
     a {
         @apply underline text-primary focus:text-complementary-verydark;
@@ -45,25 +51,34 @@
         @apply text-gray-900;
     }
     @media (min-width: 640px) {
-        li {
-            @apply ml-6 pb-1;
-        }
         p {
-            @apply p-1;
+            @apply px-1;
         }
     }
 }
 
 @layer components {
 
+    /* I tried making the .boxes full-width on mobile by removing them from the padding inside main, but didn't like it */
+    /* main p, h1, h2, h3, h4, h5 {
+        @apply p-3;
+    } */
     .box {
-        @apply bg-secondarytwo-light text-white p-5;
+        @apply bg-secondarytwo-light text-white rounded p-5 my-3;
+    }
+    .point::before {
+        content: "\2192";
+        @apply text-secondaryone-dark font-bold pr-2;
     }
     .headersgap {
         @apply pt-3;
     }
     .question {
         font-style: italic;
+    }
+    .question::before {
+        content: "\01FA80";
+        font-style: normal;
     }
     @media (min-width: 768px) {
     /* remember to apply .content to sections that have aside boxes */
@@ -74,35 +89,30 @@
             @apply pr-2;
         }
         .box {
-            @apply rounded mx-4 my-2;
+            @apply mx-4;
         }
         /* flex here makes the text line up vertically instead of wrapping around the arrow */
         .point {
              @apply flex;
          }
          .point::before {
-             content: "\2192";
-             @apply pr-2 text-2xl text-secondaryone-dark font-bold relative -top-1;
+             @apply text-2xl relative -top-1;
          }
          .question {
              @apply flex;
          }
          .question::before {
-             content: "\01FA80";
              @apply pr-2 text-2xl relative -top-1;
-             font-style: normal;
          }
+         /* .columns {
+             @apply flex;
+         } */
      }
-     @media (min-width: 1024px) {
+     /* @media (min-width: 1024px) {
 
-        .columns {
-            columns: 2;
-            column-gap: 2rem;
-        }
-        .breakafter {
-            break-after: column;
-        }
-    }
+    
+
+    } */
 }
 
 

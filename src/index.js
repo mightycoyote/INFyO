@@ -15,15 +15,27 @@ function App() {
   return (
     <div>
     {/* header */}
-       <header className="bg-secondaryone-verydark text-complementary-light flex">
-        <div className="mx-auto p-8">
+       <header>
+       <div className="bg-secondaryone-verydark text-complementary-light flex">
+          <div className="mx-auto p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
           <h1 className="inline-block align-middle pl-4 text-6xl md:text-8xl">INF-yO</h1>
           <p className="pt-2 text-lg md:text-2xl">Stuff I wish I knew sooner about modern yoyos</p>
+          </div>
         </div>
       </header>
     {/* content */}
-      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 p-12 mb-4">
+      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 p-3 sm:p-12 mb-4">
+        <nav>
+          <ul className="flex flex-col sm:flex-row list-none text-center justify-center text-primary-verydark">
+            <li>Behavior</li>
+            <li>Guts</li>
+            <li>Materials</li>
+            <li>Strings</li>
+            <li>Getting started</li>
+            <li>FAQs</li>
+          </ul>
+        </nav>
         <section>
           <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an explanation of the things I found confusing when I was starting out.</p>
         </section>
@@ -33,11 +45,14 @@ function App() {
             <div className="content">
               <div className="primary">
                 <ul>
-                  <li><b>Responsive</b>: A yoyo that returns to your hand when you tug on it. </li>
+                  <li>
+                    <b>Responsive</b>: A yoyo that returns to your hand when you tug on it.                 
+                    <p className="point">Most of the yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
+                  </li>
                   <li><b>Unresponsive</b>: A yoyo that doesn't return to your hand when you tug on it. Instead, it's brought back to the hand with a type of trick called a "bind return." The bind causes the yoyo's silicone response pads to grab the string. Most modern string trick yoyos are not responsive, which allows them to spin for a very long time, and opens up many new kinds of tricks.</li>
-                </ul>
-                <p className="point">Most of the yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
+                </ul>                
                 <Img src={terrarian} alt="One Drop Legendary Terrarian yoyo" caption="A modern unresponsive ball bearing yoyo (One Drop YoYos Legendary Terrarian)." />
+
               </div>
               <aside id="both" className="box">
                 <span className="boxhead">Having it both ways</span>
@@ -49,8 +64,7 @@ function App() {
             <div className="content">
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
-                {/* <p className="point">This page is about getting started with basic 1A play.</p> */}
-                <Img src={freehand} alt="Yoyo with counterweight attached" caption="A freehand or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
+                <Img src={freehand} alt="Yoyo with counterweight attached" caption="A counterweight or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
               </div>
               <aside className="box">
                 <span className="boxhead">The right tools</span>
@@ -86,7 +100,7 @@ function App() {
             <div className="primary">
               <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
               <ul>
-                <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When a half-spec comes installed in your new beginner-friendly yoyo, it may have been lubed already, but eventually it might stop returning easily with a tug and you'll have to add more. Fortunately, household 3-in-1 oil works fine for this.</li> 
+                <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When a half-spec bearing comes installed in your new beginner-friendly yoyo, it may have been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more. Fortunately, household 3-in-1 oil works fine for this.</li> 
                 <li><b>"C" bearings</b> <a href="#lube">can be played without lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it, instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane. Centering bearings are popular for good reason, but bearing shape is also a matter of personal preference, and not all yoyos work equally well with all shapes.</li>
               </ul>
             </div>
@@ -103,7 +117,7 @@ function App() {
             </div>
             <div>
               <h4>Plastic</h4>
-              <p>Plastic yoyos run the gamut from literally unusable discount-store trash to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. You can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
+              <p>Plastic yoyos run the gamut from literally unusable discount-store trash to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. On the other hand, you can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
             </div>
             <div>
               <h4>Aluminum</h4>
@@ -111,7 +125,7 @@ function App() {
                 <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or it's of dubious origin.</li>
                 <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, it can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
               </ul>
-              <p className="point breakafter"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">Read all about aluminum alloys in Wikipedia.</a></p>
+              <p className="point"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">Read all about aluminum alloys in Wikipedia.</a></p>
             </div>
             <div>
               <h4 className="headersgap">Titanium</h4>
@@ -129,12 +143,11 @@ function App() {
           </div>
           <h3>Strings</h3>
             <div className="columns">
-              <div className="primary">
                 <div>
                   <h4 className="headersgap">Cotton</h4> 
                   <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
                 </div>
-                <div className="breakafter">
+                <div>
                   <h4>Polyester</h4> 
                   <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
                   <p>The cheapest strings:</p>
@@ -149,12 +162,11 @@ function App() {
                     <h4 className="headersgap">Nylon or nylon-polyester blend</h4>
                     <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. It's something of an acquired taste, but has a devoted following. It also tends to be fairly expensive, but that can be offset by the longevity.</p>
                     <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
-                  </div>
-              </div>
-            <aside className="box mt-6">
-            <span className="boxhead">Thick and thin</span>
-              <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
-            </aside>
+                  </div> 
+                  <aside className="box">
+                    <span className="boxhead">Thick and thin</span>
+                    <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
+                  </aside>
             </div>
         </section>
         <section>
@@ -189,7 +201,7 @@ function App() {
               <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
         </section>
         <section>
-          <h2>FAQs with somewhat controversial answers</h2>
+          <h2>FAQs (with somewhat controversial answers)</h2>
             <div>
               <h3 id="lube" className="headersgap">Unresponsive lube</h3>
               <ul>
@@ -248,10 +260,10 @@ function App() {
               <p className="question">How do I know when it's time to change strings?</p>
               <p>This is, alas, another highly subjective question. However, for polyester it might be any or all of these:</p>
               <ul>
-                <li>It twists up on itself more than it used to, making it difficult and annoying to manage the string tension.</li>
+                <li>It twists up on itself more than it used to, making it difficult to manage the string tension.</li>
                 <li>It doesn't bind reliably.</li>
                 <li>It feels sort of dead&mdash;flat and unbouncy.</li>
-                <li>It looks dirty and gross. Some people have sweatier hands than others. If your good poly strings are getting gross before they're wearing out, you can sometimes extend their life by washing them.</li>
+                <li>It looks dirty and oily. Some people have sweatier hands than others. If your good poly strings are getting gross before they're wearing out, you can sometimes extend their life by washing them.</li>
               </ul>
             </div>
             <div>
