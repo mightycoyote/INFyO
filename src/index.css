@@ -36,10 +36,16 @@
         @apply ml-6 pb-1;
     }
     a {
-        @apply underline text-primary focus:text-complementary-verydark;
+        @apply underline text-primary focus:text-complementary;
+    }
+    nav a {
+        @apply no-underline hover:text-complementary;
+    }
+    nav li {
+        @apply mx-3;
     }
     figure {
-        @apply bg-white mx-4 my-2 p-5 max-w-md;
+        @apply bg-white my-2 p-5 max-w-md;
     }
     figure img {
         @apply w-full h-full object-cover;
@@ -59,10 +65,7 @@
 
 @layer components {
 
-    /* I tried making the .boxes full-width on mobile by removing them from the padding inside main, but didn't like it */
-    /* main p, h1, h2, h3, h4, h5 {
-        @apply p-3;
-    } */
+    /* I tried making the .boxes full-width on mobile, but didn't like it */
     .box {
         @apply bg-secondarytwo-light text-white rounded p-5 my-3;
     }
@@ -82,37 +85,31 @@
     }
     @media (min-width: 768px) {
     /* remember to apply .content to sections that have aside boxes */
-        .content {
+        /* .content {
             @apply md:flex items-start pb-2;
-        }
+        } */
+        /* .content {
+            @apply float-left;
+        } */
         .primary {
             @apply pr-2;
         }
         .box {
-            @apply mx-4;
+            @apply mx-4 w-2/5 float-right;
         }
-        /* flex here makes the text line up vertically instead of wrapping around the arrow */
         .point {
-             @apply flex;
-         }
-         .point::before {
-             @apply text-2xl relative -top-1;
-         }
-         .question {
-             @apply flex;
-         }
-         .question::before {
-             @apply pr-2 text-2xl relative -top-1;
-         }
-         /* .columns {
-             @apply flex;
-         } */
+            @apply pl-8;
+        }
+        .point::before {
+            @apply text-2xl -ml-8 relative top-px;
+        }
+        .question {
+            @apply flex;
+        }
+        .question::before {
+            @apply pr-2 text-2xl relative -top-1;
+        }
      }
-     /* @media (min-width: 1024px) {
-
-    
-
-    } */
 }
 
 

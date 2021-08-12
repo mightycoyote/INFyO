@@ -25,15 +25,15 @@ function App() {
         </div>
       </header>
     {/* content */}
-      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 p-3 sm:p-12 mb-4">
+      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 px-3 pb-6 sm:pb-12 sm:px-12 mb-4">
         <nav>
-          <ul className="flex flex-col sm:flex-row list-none text-center justify-center text-primary-verydark">
-            <li>Behavior</li>
-            <li>Guts</li>
-            <li>Materials</li>
-            <li>Strings</li>
-            <li>Getting started</li>
-            <li>FAQs</li>
+          <ul className="flex flex-col sm:flex-row list-none text-center justify-center text-secondaryone-verydark py-4 uppercase tracking-wider font-light text-sm no-underline">
+            <li><a href="#behavior">Behavior</a></li>
+            <li><a href="#guts">Guts</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#strings">Strings</a></li>
+            <li><a href="#gettingstarted">Getting started</a></li>
+            <li><a href="#faqs">FAQs</a></li>
           </ul>
         </nav>
         <section>
@@ -41,7 +41,7 @@ function App() {
         </section>
         <section>
           <h2>Modern yoyo basics</h2>
-          <h3 className="headersgap">Behavior</h3>
+          <h3 className="headersgap" id="behavior">Behavior</h3>
             <div className="content">
               <div className="primary">
                 <ul>
@@ -71,7 +71,7 @@ function App() {
                 <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles.</p>
               </aside>
             </div>
-          <h3>Guts</h3>  
+          <h3 id="guts">Guts</h3>  
           <div className="content">
             <div className="primary">
               <div>
@@ -109,7 +109,7 @@ function App() {
               <p>Manufacturers do still make some string trick yoyos that take bearings other than "C"&mdash;typically "D" or "A". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)</p>
             </aside>
           </div>
-          <h3>Materials</h3>
+          <h3 id="materials">Materials</h3>
           <div className="columns">
             <div>
               <h4 className="headersgap">Wood</h4>
@@ -141,7 +141,7 @@ function App() {
               <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is made out of more aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
             </div>
           </div>
-          <h3>Strings</h3>
+          <h3 id="strings">Strings</h3>
             <div className="columns">
                 <div>
                   <h4 className="headersgap">Cotton</h4> 
@@ -170,7 +170,7 @@ function App() {
             </div>
         </section>
         <section>
-          <h2>Getting started</h2>
+          <h2 id="gettingstarted">Getting started</h2>
             <h3 className="headersgap">What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
             <ol className="list-decimal">
@@ -201,7 +201,7 @@ function App() {
               <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
         </section>
         <section>
-          <h2>FAQs (with somewhat controversial answers)</h2>
+          <h2 id="faqs">FAQs (with somewhat controversial answers)</h2>
             <div>
               <h3 id="lube" className="headersgap">Unresponsive lube</h3>
               <ul>
