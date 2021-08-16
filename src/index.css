@@ -30,10 +30,13 @@
         @apply py-1;
     }
     ul {
-        @apply list-disc;
+        @apply list-disc list-inside sm:list-outside;
+    }
+    ol {
+        @apply list-inside sm:list-outside;
     }
     li {
-        @apply ml-6 pb-1;
+        @apply pb-1;
     }
     a {
         @apply underline text-primary focus:text-complementary;
@@ -67,7 +70,7 @@
 
     /* I tried making the .boxes full-width on mobile, but didn't like it */
     .box {
-        @apply bg-secondarytwo-light text-white rounded p-5 my-3;
+        @apply bg-secondarytwo-light text-white rounded p-6;
     }
     .point::before {
         content: "\2192";
@@ -79,10 +82,10 @@
     .question {
         font-style: italic;
     }
-    .question::before {
+    /* .question::before {
         content: "\01FA80";
         font-style: normal;
-    }
+    } */
     @media (min-width: 768px) {
     /* remember to apply .content to sections that have aside boxes */
         /* .content {
@@ -95,7 +98,7 @@
             @apply pr-2;
         }
         .box {
-            @apply mx-4 w-2/5 float-right;
+            @apply my-4;
         }
         .point {
             @apply pl-8;
@@ -107,6 +110,8 @@
             @apply flex;
         }
         .question::before {
+            content: "\01FA80";
+            font-style: normal;
             @apply pr-2 text-2xl relative -top-1;
         }
      }

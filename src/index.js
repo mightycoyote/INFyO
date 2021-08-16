@@ -25,7 +25,7 @@ function App() {
         </div>
       </header>
     {/* content */}
-      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 px-3 pb-6 sm:pb-12 sm:px-12 mb-4">
+      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 px-3 pb-6 sm:pb-12 sm:px-14 mb-4">
         <nav>
           <ul className="flex flex-col sm:flex-row list-none text-center justify-center text-secondaryone-verydark py-4 uppercase tracking-wider font-light text-sm no-underline">
             <li><a href="#behavior">Behavior</a></li>
@@ -42,7 +42,7 @@ function App() {
         <section>
           <h2>Modern yoyo basics</h2>
           <h3 className="headersgap" id="behavior">Behavior</h3>
-            <div className="content">
+            <div className="content md:flex">
               <div className="primary">
                 <ul>
                   <li>
@@ -52,9 +52,8 @@ function App() {
                   <li><b>Unresponsive</b>: A yoyo that doesn't return to your hand when you tug on it. Instead, it's brought back to the hand with a type of trick called a "bind return." The bind causes the yoyo's silicone response pads to grab the string. Most modern string trick yoyos are not responsive, which allows them to spin for a very long time, and opens up many new kinds of tricks.</li>
                 </ul>                
                 <Img src={terrarian} alt="One Drop Legendary Terrarian yoyo" caption="A modern unresponsive ball bearing yoyo (One Drop YoYos Legendary Terrarian)." />
-
               </div>
-              <aside id="both" className="box">
+              <aside id="both" className="box self-start">
                 <span className="boxhead">Having it both ways</span>
                 <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
                 <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they don't like to come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
@@ -109,7 +108,7 @@ function App() {
               <p>Manufacturers do still make some string trick yoyos that take bearings other than "C"&mdash;typically "D" or "A". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)</p>
             </aside>
           </div>
-          <h3 id="materials">Materials</h3>
+          <h3 id="materials" className="clear-both">Materials</h3>
           <div className="columns">
             <div>
               <h4 className="headersgap">Wood</h4>
@@ -151,7 +150,7 @@ function App() {
                   <h4>Polyester</h4> 
                   <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
                   <p>The cheapest strings:</p>
-                    <ol className="list-decimal pl-4">
+                    <ol className="list-decimal">
                       <li>Don't whip well&mdash;that is, they don't have enough body to form a good loop when doing a slack trick.</li>
                       <li>Are especially prone to twisting up on themselves (all string does this as the tension changes naturally during play, but better strings resist it more).</li>
                       <li>Don't last long, maybe a couple of hours. This is one of the more significant considerations costwise&mdash;the most expensive strings do often last a lot longer.</li>
