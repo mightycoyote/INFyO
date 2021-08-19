@@ -25,10 +25,10 @@ function App() {
         </div>
       </header>
     {/* content */}
-      <main className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 px-3 pb-6 sm:pb-12 sm:px-14 mb-4">
+      <main>
         <nav>
           <ul className="flex flex-col sm:flex-row list-none text-center justify-center text-secondaryone-verydark py-4 uppercase tracking-wider font-light text-sm no-underline">
-            <li><a href="#behavior">Behavior</a></li>
+            <li><a href="#basics">Basics</a></li>
             <li><a href="#guts">Guts</a></li>
             <li><a href="#materials">Materials</a></li>
             <li><a href="#strings">Strings</a></li>
@@ -40,9 +40,9 @@ function App() {
           <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an explanation of the things I found confusing when I was starting out.</p>
         </section>
         <section>
-          <h2>Modern yoyo basics</h2>
-          <h3 className="headersgap" id="behavior">Behavior</h3>
-            <div className="content md:flex">
+          <h2 id="basics">Modern yoyo basics</h2>
+          <h3 className="headersgap">Behavior</h3>
+            <div className="md:flex">
               <div className="primary">
                 <ul>
                   <li>
@@ -56,11 +56,11 @@ function App() {
               <aside id="both" className="box self-start">
                 <span className="boxhead">Having it both ways</span>
                 <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
-                <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they don't like to come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
+                <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they usually don't come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
               </aside>
             </div>
             <h4>Playstyles</h4>
-            <div className="content">
+            <div>
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
                 <Img src={freehand} alt="Yoyo with counterweight attached" caption="A counterweight or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
@@ -71,7 +71,7 @@ function App() {
               </aside>
             </div>
           <h3 id="guts">Guts</h3>  
-          <div className="content">
+          <div>
             <div className="primary">
               <div>
                 <h4 className="headersgap">Fixed-axle</h4>
@@ -95,7 +95,7 @@ function App() {
             </aside>
           </div>
           <h5>String trick yoyo bearings</h5>
-          <div className="content">
+          <div>
             <div className="primary">
               <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
               <ul>
@@ -178,7 +178,7 @@ function App() {
             </ol>
             <p className="point">What I <em>don't</em> recommend is trying to learn the basics on a responsive aluminum yoyo. Some people do, but... ouch.</p>
             <h3>Options</h3>
-              <div className="content">
+              <div>
                 <div className="primary">
                   <ol className="list-decimal">
                     <li>Starter sets.</li>
@@ -198,6 +198,7 @@ function App() {
                 <p>There are lots and lots of free online tutorials, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. This may seem obvious, but it's easy to forget when you're feeling frustrated.</p>
               <h4>Online communities</h4>
               <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
+              <p className="point">Keeping an eye on one of the larger online communities will also allow you to find out when contests or other gatherings are coming up.</p>
         </section>
         <section>
           <h2 id="faqs">FAQs (with somewhat controversial answers)</h2>
@@ -219,30 +220,29 @@ function App() {
             </div>
             <div>
               <h3>Jumping into unresponsive play</h3>
-              <div className="content">
-                <div className="primary">
-                  <p className="question">Do I really need to do anything with a responsive yoyo, or can I just learn to bind and go straight to unresponsive?</p>
-                  <ul>
-                    <li>
-                      <p><b>Argument in favor of skipping responsive play</b>: It's your yoyo and your time and you can do whatever you want.</p>
-                    </li>
-                    <li>
-                      <p><b>Argument against</b>: Spending some time with a responsive yoyo first makes it easier to learn the basics and makes your technique cleaner. And, it can help keep you from getting into bad habits that are hard to break later.</p>
-                    </li>
-                    <li>
-                      <p><b>My opinion</b>: You should play with a responsive yoyo at least until you can throw straight (frontstyle and breakaway), and then a few basic tricks until you get a feel for how you have to play to keep the yoyo from snapping back prematurely.</p>
-                      <p>From a purely practical standpoint, learning the most basic basics on a unresponsive yoyo would be pretty tedious&mdash;lots of winding the yoyo back up by hand, not so much doing tricks.</p>
-                    </li>
-                  </ul>
-                </div>
-                <aside className="box">
-                  <span className="boxhead">Not a destination</span>
-                  <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
-                </aside>
-              </div>
-
+              {/* <div> */}
+              {/* <div> */}
+                <p className="question">Do I really need to do anything with a responsive yoyo, or can I just learn to bind and go straight to unresponsive?</p>
+                <ul>
+                  <li>
+                    <p><b>Argument in favor of skipping responsive play</b>: It's your yoyo and your time and you can do whatever you want.</p>
+                  </li>
+                  <li>
+                    <p><b>Argument against</b>: Spending some time with a responsive yoyo first makes it easier to learn the basics and makes your technique cleaner. And, it can help keep you from getting into bad habits that are hard to break later.</p>
+                  </li>
+                  <li>
+                    <p><b>My opinion</b>: You should play with a responsive yoyo at least until you can throw straight (frontstyle and breakaway), and then a few basic tricks until you get a feel for how you have to play to keep the yoyo from snapping back prematurely.</p>
+                    <p>From a purely practical standpoint, learning the most basic basics on a unresponsive yoyo would be pretty tedious&mdash;lots of winding the yoyo back up by hand, not so much doing tricks.</p>
+                  </li>
+                </ul>
+              {/* </div> */}
+              <aside className="box float-right">
+                <span className="boxhead">Not a destination</span>
+                <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
+              </aside>
+              {/* </div> */}
             </div>
-            <div>
+            <div className="clear-both">
               <h3 id="plastic">Plastic</h3>
               <p className="question">Is plastic as good as aluminum? Why bother with plastic when some aluminum yoyos are so cheap?</p>
               <p>No, plastic is not as good as aluminum, performance-wise. (Yes, you can find excellent plastic yoyos that are better than mediocre aluminum yoyos. That's not the point.) Plastic can work very well, though. Its main advantages over a decent budget/b-grade/pre-owned aluminum yoyo are situational:</p>
@@ -277,7 +277,7 @@ function App() {
             </div>
         </section>
       </main>
-    <footer className="md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-blue-400 text-sm">
+    <footer>
       <p>&copy;2021 Sarah Wilkes</p>
     </footer>
     </div>

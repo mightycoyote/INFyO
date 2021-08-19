@@ -6,6 +6,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
     h1, h2, h3, h4, h5, header p, .boxhead {
         font-family: 'Racing Sans One', cursive;
+        @apply filter drop-shadow-sm;
     }
     h2, h3, h4, h5 {
         @apply text-secondarytwo-light pt-6 pb-2;
@@ -26,14 +27,18 @@
     body {
         @apply bg-secondaryone-verydark;
     }
+    /* Technically theses could be left in the html since there is only one main, but I put them here for convenience */
+    main {
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 pl-6 pr-5 pb-6 sm:pb-12 sm:px-14 mb-4;
+    }
+    footer {
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-blue-400 text-sm px-6;
+    }
     p {
         @apply py-1;
     }
     ul {
-        @apply list-disc list-inside sm:list-outside;
-    }
-    ol {
-        @apply list-inside sm:list-outside;
+        @apply list-disc;
     }
     li {
         @apply pb-1;
@@ -70,11 +75,11 @@
 
     /* I tried making the .boxes full-width on mobile, but didn't like it */
     .box {
-        @apply bg-secondarytwo-light text-white rounded p-6;
+        @apply bg-gradient-to-br from-secondarytwo-light via-secondarytwo to-green-600 text-white rounded p-6 shadow;
     }
     .point::before {
         content: "\2192";
-        @apply text-secondaryone-dark font-bold pr-2;
+        @apply text-secondaryone-dark font-bold pr-2 shadow-sm;
     }
     .headersgap {
         @apply pt-3;
@@ -87,18 +92,15 @@
         font-style: normal;
     } */
     @media (min-width: 768px) {
-    /* remember to apply .content to sections that have aside boxes */
-        /* .content {
-            @apply md:flex items-start pb-2;
-        } */
-        /* .content {
-            @apply float-left;
-        } */
-        .primary {
+        /* float is best when there is an aside box to wrap around, but no photos in the main text  */
+        /* .flexsection {
+            @apply flex items-start pb-2;
+        }  */
+        /* .primary {
             @apply pr-2;
-        }
+        } */
         .box {
-            @apply my-4;
+            @apply ml-7 mb-4;
         }
         .point {
             @apply pl-8;
@@ -106,14 +108,14 @@
         .point::before {
             @apply text-2xl -ml-8 relative top-px;
         }
-        .question {
+        /* .question {
             @apply flex;
         }
         .question::before {
             content: "\01FA80";
             font-style: normal;
             @apply pr-2 text-2xl relative -top-1;
-        }
+        } */
      }
 }
 
