@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import headerpic from './img/yoyo-topdown.jpg';
 import Img from './js/img';
+import Nav from './js/nav';
 import terrarian from './img/terrarian-assembled.jpg';
 import spinstar from './img/spinstar-assembled.jpg';
 import freehand from './img/speedaholic-freehand.jpg';
@@ -26,23 +27,14 @@ function App() {
       </header>
     {/* content */}
       <main>
-        <nav>
-          <ul className="flex flex-col sm:flex-row list-none text-center justify-center text-secondaryone-verydark py-4 uppercase tracking-wider font-light text-sm no-underline">
-            <li><a href="#basics">Basics</a></li>
-            <li><a href="#guts">Guts</a></li>
-            <li><a href="#materials">Materials</a></li>
-            <li><a href="#strings">Strings</a></li>
-            <li><a href="#gettingstarted">Getting started</a></li>
-            <li><a href="#faqs">FAQs</a></li>
-          </ul>
-        </nav>
+        <Nav />
         <section>
           <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an explanation of the things I found confusing when I was starting out.</p>
         </section>
         <section>
           <h2 id="basics">Modern yoyo basics</h2>
           <h3 className="headersgap">Behavior</h3>
-            <div className="md:flex">
+            <div className="column-nowrap">
               <div className="primary">
                 <ul>
                   <li>
@@ -53,14 +45,14 @@ function App() {
                 </ul>                
                 <Img src={terrarian} alt="One Drop Legendary Terrarian yoyo" caption="A modern unresponsive ball bearing yoyo (One Drop YoYos Legendary Terrarian)." />
               </div>
-              <aside id="both" className="box self-start">
+              <aside id="both" className="box">
                 <span className="boxhead">Having it both ways</span>
                 <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
-                <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers or silicone can't be reused once they're removed (and can take some effort to do so since they usually don't come out cleanly). With these yoyos you'd decide which setup you want to use and mostly leave it.</p>
+                <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers can't reliably be reused once they're removed. With these yoyos you'll usually decide which setup you prefer and (mostly) leave it.</p>
               </aside>
             </div>
             <h4>Playstyles</h4>
-            <div>
+            <div className="column-nowrap">
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
                 <Img src={freehand} alt="Yoyo with counterweight attached" caption="A counterweight or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
@@ -71,7 +63,7 @@ function App() {
               </aside>
             </div>
           <h3 id="guts">Guts</h3>  
-          <div>
+          <div className="column-nowrap">
             <div className="primary">
               <div>
                 <h4 className="headersgap">Fixed-axle</h4>
@@ -95,7 +87,7 @@ function App() {
             </aside>
           </div>
           <h5>String trick yoyo bearings</h5>
-          <div>
+          <div className="column-nowrap">
             <div className="primary">
               <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
               <ul>
@@ -104,10 +96,11 @@ function App() {
               </ul>
             </div>
             <aside className="box">
-            <span className="boxhead">Big and small</span>
+              <span className="boxhead">Big and small</span>
               <p>Manufacturers do still make some string trick yoyos that take bearings other than "C"&mdash;typically "D" or "A". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)</p>
             </aside>
           </div>
+          <Nav />
           <h3 id="materials" className="clear-both">Materials</h3>
           <div className="columns">
             <div>
@@ -141,34 +134,42 @@ function App() {
             </div>
           </div>
           <h3 id="strings">Strings</h3>
-            <div className="columns">
-                <div>
-                  <h4 className="headersgap">Cotton</h4> 
-                  <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
-                </div>
-                <div>
-                  <h4>Polyester</h4> 
-                  <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
-                  <p>The cheapest strings:</p>
-                    <ol className="list-decimal">
-                      <li>Don't whip well&mdash;that is, they don't have enough body to form a good loop when doing a slack trick.</li>
-                      <li>Are especially prone to twisting up on themselves (all string does this as the tension changes naturally during play, but better strings resist it more).</li>
-                      <li>Don't last long, maybe a couple of hours. This is one of the more significant considerations costwise&mdash;the most expensive strings do often last a lot longer.</li>
-                      <li>Might be rough. Personally, I need my strings to be on the soft side since my hands are chapped all winter, but some popular bulk strings are rough and their fans don't seem to mind. I've also encountered cheap strings that are soft, but poor at 1-3.</li>
-                    </ol>
-                  </div>
-                  <div>
-                    <h4 className="headersgap">Nylon or nylon-polyester blend</h4>
-                    <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. It's something of an acquired taste, but has a devoted following. It also tends to be fairly expensive, but that can be offset by the longevity.</p>
-                    <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
-                  </div> 
-                  <aside className="box">
-                    <span className="boxhead">Thick and thin</span>
-                    <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
-                  </aside>
+          <div>
+          {/* aside box floats to right starting on screens, but end of the section on smaller screens */}
+            <aside className="box box-float">
+              <span className="boxhead">Thick and thin</span>
+              <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
+            </aside>
+            <div className="primary">
+              <div>
+                <h4 className="headersgap">Cotton</h4> 
+                <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
+              </div>
+              <div>
+                <h4>Polyester</h4> 
+                <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
+                <p>The cheapest strings:</p>
+                <ol className="list-decimal">
+                  <li>Don't whip well&mdash;that is, they don't have enough body to form a good loop when doing a slack trick.</li>
+                  <li>Are especially prone to twisting up on themselves (all string does this as the tension changes naturally during play, but better strings resist it more).</li>
+                  <li>Don't last long, maybe a couple of hours. This is one of the more significant considerations costwise&mdash;the most expensive strings do often last a lot longer.</li>
+                  <li>Might be rough. Personally, I need my strings to be on the soft side since my hands are chapped all winter, but some popular bulk strings are rough and their fans don't seem to mind. I've also encountered cheap strings that are soft, but poor at 1-3.</li>
+                </ol>
+              </div>
+              <div>
+                <h4 className="headersgap">Nylon or nylon-polyester blend</h4>
+                <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. It's something of an acquired taste, but has a devoted following. It also tends to be fairly expensive, but that can be offset by the longevity.</p>
+                <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
+              </div> 
             </div>
+            <aside className="box box-last">
+              <span className="boxhead">Thick and thin</span>
+              <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
+            </aside>
+          </div>
         </section>
         <section>
+          <Nav />
           <h2 id="gettingstarted">Getting started</h2>
             <h3 className="headersgap">What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
@@ -178,7 +179,7 @@ function App() {
             </ol>
             <p className="point">What I <em>don't</em> recommend is trying to learn the basics on a responsive aluminum yoyo. Some people do, but... ouch.</p>
             <h3>Options</h3>
-              <div>
+              <div className="column-nowrap">
                 <div className="primary">
                   <ol className="list-decimal">
                     <li>Starter sets.</li>
@@ -201,6 +202,7 @@ function App() {
               <p className="point">Keeping an eye on one of the larger online communities will also allow you to find out when contests or other gatherings are coming up.</p>
         </section>
         <section>
+          <Nav />
           <h2 id="faqs">FAQs (with somewhat controversial answers)</h2>
             <div>
               <h3 id="lube" className="headersgap">Unresponsive lube</h3>
@@ -220,27 +222,27 @@ function App() {
             </div>
             <div>
               <h3>Jumping into unresponsive play</h3>
-              {/* <div> */}
-              {/* <div> */}
-                <p className="question">Do I really need to do anything with a responsive yoyo, or can I just learn to bind and go straight to unresponsive?</p>
-                <ul>
-                  <li>
-                    <p><b>Argument in favor of skipping responsive play</b>: It's your yoyo and your time and you can do whatever you want.</p>
-                  </li>
-                  <li>
-                    <p><b>Argument against</b>: Spending some time with a responsive yoyo first makes it easier to learn the basics and makes your technique cleaner. And, it can help keep you from getting into bad habits that are hard to break later.</p>
-                  </li>
-                  <li>
-                    <p><b>My opinion</b>: You should play with a responsive yoyo at least until you can throw straight (frontstyle and breakaway), and then a few basic tricks until you get a feel for how you have to play to keep the yoyo from snapping back prematurely.</p>
-                    <p>From a purely practical standpoint, learning the most basic basics on a unresponsive yoyo would be pretty tedious&mdash;lots of winding the yoyo back up by hand, not so much doing tricks.</p>
-                  </li>
-                </ul>
-              {/* </div> */}
-              <aside className="box float-right">
-                <span className="boxhead">Not a destination</span>
-                <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
-              </aside>
-              {/* </div> */}
+              <div className="column-nowrap">
+                <div>
+                  <p className="question">Do I really need to do anything with a responsive yoyo, or can I just learn to bind and go straight to unresponsive?</p>
+                  <ul>
+                    <li>
+                      <p><b>Argument in favor of skipping responsive play</b>: It's your yoyo and your time and you can do whatever you want.</p>
+                    </li>
+                    <li>
+                      <p><b>Argument against</b>: Spending some time with a responsive yoyo first makes it easier to learn the basics and makes your technique cleaner. And, it can help keep you from getting into bad habits that are hard to break later.</p>
+                    </li>
+                    <li>
+                      <p><b>My opinion</b>: You should play with a responsive yoyo at least until you can throw straight (frontstyle and breakaway), and then a few basic tricks until you get a feel for how you have to play to keep the yoyo from snapping back prematurely.</p>
+                      <p>From a purely practical standpoint, learning the most basic basics on a unresponsive yoyo would be pretty tedious&mdash;lots of winding the yoyo back up by hand, not so much doing tricks.</p>
+                    </li>
+                  </ul>
+                </div>
+                <aside className="box">
+                  <span className="boxhead">Not a destination</span>
+                  <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
+                </aside>
+              </div>
             </div>
             <div className="clear-both">
               <h3 id="plastic">Plastic</h3>
