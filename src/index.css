@@ -25,14 +25,14 @@
     }
     /* TW docs recommend "body" styles be done in the html, but that doesn't work in Create-React-App */
     body {
-        @apply bg-secondaryone-verydark;
+        @apply bg-indigo-50;
     }
     /* Technically theses could be left in the html since there is only one main, but I put them here for convenience */
     main {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-blue-200 rounded text-gray-900 pl-6 pr-5 pb-6 sm:pb-12 sm:px-14 mb-4;
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-indigo-50 text-gray-900 pl-6 pr-5 pb-6 sm:pb-12 sm:px-14 mb-4;
     }
-    footer {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-blue-400 text-sm px-6;
+    .footertext {
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-white text-sm px-6;
     }
     p {
         @apply py-1;
@@ -47,7 +47,7 @@
         @apply underline text-primary focus:text-complementary;
     }
     nav a {
-        @apply no-underline hover:text-complementary;
+        @apply no-underline hover:bg-complementary-verylight p-2 rounded-md hover:text-gray-900;
     }
     nav li {
         @apply mx-3;
@@ -78,6 +78,13 @@
         @apply lg:grid lg:grid-flow-col lg:gap-10;
         grid-template-columns: 2fr 1fr;
     }
+    .column-nowrap-reverse {
+        @apply lg:grid lg:grid-flow-col lg:gap-10;
+        grid-template-columns: 1fr 2fr;
+    }
+    .halfsies {
+        @apply lg:grid lg:gap-10 lg:grid-cols-2;
+    }
     .box {
         @apply place-self-start bg-gradient-to-br from-secondarytwo-light via-secondarytwo to-green-600 text-white rounded p-6 shadow;
     }
@@ -99,6 +106,7 @@
         content: "\2192";
         @apply text-secondaryone-dark font-bold pr-2;
     }
+    /* this is to trim the space between two consecutive headers. Could possibly be done with a selector, but has to apply to different combos  */
     .headersgap {
         @apply pt-3;
     }

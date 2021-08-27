@@ -2,9 +2,9 @@
 function Img(props) {
     return (
         <figure>
-            {/* <div> */}
+            <div>
                 <img src={props.src} alt={props.alt} />
-            {/* </div> */}
+            </div>
             <figcaption>{props.caption}</figcaption>
         </figure>
     );

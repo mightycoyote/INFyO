@@ -11,6 +11,8 @@ import freehand from './img/speedaholic-freehand.jpg';
 import transaxle from './img/spinstar-inside.jpg';
 import bearing from './img/terrarian-inside.jpg';
 import starters from './img/starters.jpg';
+import atomiccrash from './img/atomiccrash.jpg';
+import tivayder from './img/ti-vayder.jpg';
 
 function App() {
   return (
@@ -74,17 +76,19 @@ function App() {
                 <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic that radiate outward).</p>
                 <Img src={transaxle} alt="Inside of a transaxle yoyo" caption="The guts of a transaxle yoyo with starburst response."/>
               </div>  
-              <div>
-                <h4>Ball bearing</h4> 
-                <p>Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</p>
-                <Img src={bearing} alt="Inside of a ball bearing yoyo" caption="The guts of a ball bearing yoyo with silicone response." />
-              </div>
             </div>
             <aside className="box">
               <span className="boxhead">Keeping it simple</span>
               <p>Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
               <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="A transaxle yoyo (YoYoFactory Spinstar)." />
             </aside>
+          </div>
+          <div>
+            <h4>Ball bearing</h4> 
+            <div className="halfsies">
+              <p>Ball bearings can be used for either responsive or unresponsive play, depending on the yoyo design, type of bearing, and whether the bearing spins freely or is lubed/greased to slow it down. The response system of most contemporary string trick yoyos consists of a 19mm diameter ring of silicone or silicone rubber. Silicone response lasts a fairly long time under normal use, but not forever. Some of the cheaper responsive bearing plastic yoyos use starburst response instead.</p>
+              <Img src={bearing} alt="Inside of a ball bearing yoyo" caption="The guts of a ball bearing yoyo with silicone response." />
+            </div> 
           </div>
           <h5>String trick yoyo bearings</h5>
           <div className="column-nowrap">
@@ -120,9 +124,14 @@ function App() {
               <p className="point"><a href="https://en.wikipedia.org/wiki/Aluminium_alloy#Wrought_alloys">Read all about aluminum alloys in Wikipedia.</a></p>
             </div>
             <div>
-              <h4 className="headersgap">Titanium</h4>
-              <p>Usually unresponsive, although there are also some responsive slimline titanium yoyos. The advantage of titanium is similar to 7000-series aluminum, only even more so&mdash;it can be machined even thinner, and is very durable. However, it does not perform objectively better than aluminum. (If that were the case, titanium would routinely be used by serious competitors, but it isn't.) They're much more expensive than most nice competition bimetals, and often very limited, and you're not really missing out if you don't have one.</p>
-              <p className="point">... That said, if you want titanium anyway, one good way to go about it is to keep an eye out for preorder announcements. They're sometimes available used too, of course, but not necessarily at a bargain price.</p>
+              <h4>Titanium</h4>
+              <div className="column-nowrap-reverse">
+                <div className="lg:order-last">
+                  <p>Usually unresponsive, although there are also some responsive slimline titanium yoyos. The advantage of titanium is similar to 7000-series aluminum, only even more so&mdash;it can be machined even thinner, and is very durable. However, it does not perform objectively better than aluminum. (If that were the case, titanium would routinely be used by serious competitors, but it isn't.) They're much more expensive than most nice competition bimetals, and often very limited, and you're not really missing out if you don't have one.</p>
+                  <p className="point">... That said, if you want titanium anyway, one good way to go about it is to keep an eye out for preorder announcements. They're sometimes available used too, of course, but not necessarily at a bargain price.</p>
+                </div>
+                <Img src={tivayder} alt="Titanium yoyo" caption="A titanium yoyo (Ti-Vayder #206)." />
+              </div>
             </div>
             <div>
               <h4>Steel</h4>
@@ -130,7 +139,10 @@ function App() {
             </div>
             <div>
               <h4>Bimetal</h4>
-              <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is made out of more aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
+              <div className="column-nowrap">
+                <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is made out of more aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
+                <Img src={atomiccrash} alt="Bimetal yoyo" caption="A comp-style 'bimetal' yoyo (C3yoyodesign Atomic Crash)." />
+              </div>
             </div>
           </div>
           <h3 id="strings">Strings</h3>
@@ -279,8 +291,10 @@ function App() {
             </div>
         </section>
       </main>
-    <footer>
-      <p>&copy;2021 Sarah Wilkes</p>
+    <footer className="bg-secondaryone-verydark">
+      <div className="footertext">
+        <p>&copy;2021 Sarah Wilkes</p>
+      </div>
     </footer>
     </div>
   );

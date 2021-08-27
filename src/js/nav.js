@@ -1,6 +1,6 @@
 function Nav() {
     return (
-        <nav>
+        <nav className="py-4">
             <ul className="clear-both flex flex-col sm:flex-row list-none text-center justify-center text-secondaryone-verydark py-4 m-8 uppercase tracking-wider font-light text-sm no-underline border-t border-b border-secondaryone-verydark">
                 <li><a href="#basics">Basics</a></li>
                 <li><a href="#guts">Guts</a></li>
