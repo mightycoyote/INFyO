@@ -53,7 +53,7 @@ function App() {
                 <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers can't reliably be reused once they're removed. With these yoyos you'll usually decide which setup you prefer and (mostly) leave it.</p>
               </aside>
             </div>
-            <h4>Playstyles</h4>
+            <h3>Playstyles</h3>
             <div className="column-nowrap">
               <div className="primary">
                 <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
@@ -64,6 +64,7 @@ function App() {
                 <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles.</p>
               </aside>
             </div>
+          <Nav />
           <h3 id="guts">Guts</h3>  
           <div className="column-nowrap">
             <div className="primary">
@@ -141,10 +142,11 @@ function App() {
               <h4>Bimetal</h4>
               <div className="column-nowrap">
                 <p>High-performance, competition-oriented yoyos are most often made out of aluminum with steel rings on the rims. Sometimes you also see designs where the ring is made out of more aluminum, in which case it's mostly for looks. Some really good, although relatively expensive, plastic yoyos also have metal weight rings.</p>
-                <Img src={atomiccrash} alt="Bimetal yoyo" caption="A comp-style 'bimetal' yoyo (C3yoyodesign Atomic Crash)." />
+                <Img src={atomiccrash} alt="Bimetal yoyo" caption="A competition-style bimetal yoyo (C3yoyodesign Atomic Crash)." />
               </div>
             </div>
           </div>
+          <Nav />
           <h3 id="strings">Strings</h3>
           <div>
           {/* aside box floats to right starting on screens, but end of the section on smaller screens */}

@@ -6,22 +6,25 @@
     @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
     h1, h2, h3, h4, h5, header p, .boxhead {
         font-family: 'Racing Sans One', cursive;
-        @apply filter drop-shadow-sm;
+        @apply filter drop-shadow;
     }
     h2, h3, h4, h5 {
         @apply text-secondarytwo-light pt-6 pb-2;
     }
     h2 {
-        @apply text-4xl;
+        @apply text-4xl lg:text-5xl;
+        @media (min-width: 1024px) {
+            font-size: 2.5rem;
+        }
     }
     h3 {
-        @apply text-2xl;
+        @apply text-3xl lg:text-4xl;
     }
     h4, .boxhead {
-        @apply text-xl;
+        @apply text-2xl lg:text-3xl;
     }
     h5 {
-        @apply text-lg;
+        @apply text-xl lg:text-2xl;
     }
     /* TW docs recommend "body" styles be done in the html, but that doesn't work in Create-React-App */
     body {
@@ -29,10 +32,10 @@
     }
     /* Technically theses could be left in the html since there is only one main, but I put them here for convenience */
     main {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-indigo-50 text-gray-900 pl-6 pr-5 pb-6 sm:pb-12 sm:px-14 mb-4;
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-indigo-50 text-gray-900 pl-6 pr-5 pb-4 sm:pb-12 sm:px-14 mb-4;
     }
     .footertext {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto mb-4 text-white text-sm px-6;
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto py-4 text-indigo-50 text-sm px-6;
     }
     p {
         @apply py-1;
