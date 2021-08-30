@@ -22,7 +22,7 @@ function App() {
        <div className="bg-secondaryone-verydark text-complementary-light flex">
           <div className="mx-auto p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
-          <h1 className="inline-block align-middle pl-4 text-6xl md:text-8xl">INF-yO</h1>
+          <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INF-yO</h1>
           <p className="pt-2 text-lg md:text-2xl">Stuff I wish I knew sooner about modern yoyos</p>
           </div>
         </div>
@@ -38,7 +38,7 @@ function App() {
           <h3 className="headersgap">Behavior</h3>
             <div className="column-nowrap">
               <div className="primary">
-                <ul>
+                <ul className="pt-1 mb-6">
                   <li>
                     <b>Responsive</b>: A yoyo that returns to your hand when you tug on it.                 
                     <p className="point">Most of the yoyos marketed to beginners and kids are still responsive yoyos. The slightly fancier ones can be converted to unresponsive.</p>
@@ -56,7 +56,7 @@ function App() {
             <h3>Playstyles</h3>
             <div className="column-nowrap">
               <div className="primary">
-                <p>There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
+                <p className="mb-6">There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
                 <Img src={freehand} alt="Yoyo with counterweight attached" caption="A counterweight or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
               </div>
               <aside className="box">
@@ -74,7 +74,7 @@ function App() {
               </div>
               <div>
                 <h4>Transaxle</h4>
-                <p>These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic that radiate outward).</p>
+                <p className="mb-6">These have an axle that is a fixed steel post, but with a plastic sleeve that spins around it. They are still cheap, simple and generally maintenance-free, but easier to use and learn tricks on than a fixed axle. The response area uses starburst response (grooves in the plastic that radiate outward).</p>
                 <Img src={transaxle} alt="Inside of a transaxle yoyo" caption="The guts of a transaxle yoyo with starburst response."/>
               </div>  
             </div>
@@ -118,7 +118,7 @@ function App() {
             </div>
             <div>
               <h4>Aluminum</h4>
-              <ul>
+              <ul className="pt-1">
                 <li><b>6061</b>. Most aluminum yoyos are made out of a 6061 alloy. It's the standard, and you can assume an aluminum yoyo is made out of 6061 unless the listing states otherwise, or it's of dubious origin.</li>
                 <li><b>7000 series</b>: usually 7068 or 7075. Some higher-end aluminum yoyos are made out of these. Harder and denser than 6061, it can be machined a little thinner, and can result in higher-performing, slightly more damage-resistant yoyos. They hit your hand (or any other body parts that get in the way) harder accordingly, though.</li>
               </ul>
@@ -157,7 +157,7 @@ function App() {
             <div className="primary">
               <div>
                 <h4 className="headersgap">Cotton</h4> 
-                <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Polyester strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
+                <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Synthetic strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
               </div>
               <div>
                 <h4>Polyester</h4> 
@@ -171,7 +171,7 @@ function App() {
                 </ol>
               </div>
               <div>
-                <h4 className="headersgap">Nylon or nylon-polyester blend</h4>
+                <h4>Nylon or nylon-polyester blend</h4>
                 <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. It's something of an acquired taste, but has a devoted following. It also tends to be fairly expensive, but that can be offset by the longevity.</p>
                 <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
               </div> 
@@ -195,7 +195,7 @@ function App() {
             <h3>Options</h3>
               <div className="column-nowrap">
                 <div className="primary">
-                  <ol className="list-decimal">
+                  <ol className="list-decimal pt-1 mb-6">
                     <li>Starter sets.</li>
                     <li>Plastic yoyos that are marketed as good for both beginner and advanced play, come with both the half spec and C bearing, and look cool to you.</li>
                     <li>Look on yoyo forums to see what people are recommending currently, or ask. The tricky part is that not everything is always available, so you can ask for help choosing among your <em>current</em> options too. People's favorite recommendations aren't always in stock.</li>

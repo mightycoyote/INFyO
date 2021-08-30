@@ -50,13 +50,13 @@
         @apply underline text-primary focus:text-complementary;
     }
     nav a {
-        @apply no-underline hover:bg-complementary-verylight p-2 rounded-md hover:text-gray-900;
+        @apply inline-block text-center p-2 no-underline hover:bg-complementary-verylight rounded-md hover:text-gray-900;
     }
     nav li {
-        @apply mx-3;
+        @apply md:m-3;
     }
     figure {
-        @apply bg-white my-2 p-5 max-w-lg;
+        @apply bg-white p-5 max-w-lg;
     }
     figure img {
         @apply w-full h-full object-cover;
@@ -67,16 +67,12 @@
     .box figcaption {
         @apply text-gray-900;
     }
-    @media (min-width: 640px) {
-        p {
-            @apply px-1;
-        }
-    }
 }
 
 @layer components {
 
     /* I tried making the .boxes full-width on mobile, but didn't like it */
+
     .column-nowrap {
         @apply lg:grid lg:grid-flow-col lg:gap-10;
         grid-template-columns: 2fr 1fr;
@@ -88,8 +84,14 @@
     .halfsies {
         @apply lg:grid lg:gap-10 lg:grid-cols-2;
     }
+    /* .column-nowrap > *, .column-nowrap-reverse > *, .halfsies > * {
+        @apply mt-0;
+    } */
     .box {
         @apply place-self-start bg-gradient-to-br from-secondarytwo-light via-secondarytwo to-green-600 text-white rounded p-6 shadow;
+    }
+    .box, figure {
+        @apply my-6 lg:mt-1;
     }
     /* changes display of the aside box in the place it needs to float right */
     @media (max-width: 1023px) {
@@ -105,13 +107,14 @@
             display: none;
         }
     }
-    .point::before {
-        content: "\2192";
-        @apply text-secondaryone-dark font-bold pr-2;
-    }
     /* this is to trim the space between two consecutive headers. Could possibly be done with a selector, but has to apply to different combos  */
     .headersgap {
         @apply pt-3;
+    }
+    /* styling for arrow and yoyo emoji paras */
+    .point::before {
+        content: "\2192";
+        @apply text-secondaryone-dark font-bold pr-2;
     }
     .question {
         font-style: italic;
@@ -119,21 +122,17 @@
     .question::before {
         content: "\01FA80";
         font-style: normal;
+        @apply pr-2;
     }
     @media (min-width: 768px) {
-        .point {
+        .point, .question {
             @apply pl-8;
         }
         .point::before {
             @apply text-2xl -ml-8 relative top-px;
         }
-        .question {
-            @apply flex;
-        }
         .question::before {
-            content: "\01FA80";
-            font-style: normal;
-            @apply pr-2 text-2xl relative -top-1;
+            @apply text-2xl -ml-8 relative top-0.5;
         }
      }
 }
