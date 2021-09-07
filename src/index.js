@@ -94,7 +94,7 @@ function App() {
           <h5>String trick yoyo bearings</h5>
           <div className="column-nowrap">
             <div className="primary">
-              <p>The majority of string trick yoyos all take the same standard diameter bearing. The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play.</p>
+              <p>The majority of string trick yoyos all take the same standard diameter bearing. <em>The narrow "half-spec" version is used for responsive play, and its wider sibling the "C" bearing for unresponsive play</em>.</p>
               <ul>
                 <li><b>Half-spec bearings</b> generally need a thick lube or silicone grease in them to respond properly. When a half-spec bearing comes installed in your new beginner-friendly yoyo, it may have been lubed already, but eventually it will stop returning easily with a tug and you'll have to add more. Fortunately, household 3-in-1 oil works fine for this.</li> 
                 <li><b>"C" bearings</b> <a href="#lube">can be played without lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it, instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane. Centering bearings are popular for good reason, but bearing shape is also a matter of personal preference, and not all yoyos work equally well with all shapes.</li>
@@ -114,7 +114,7 @@ function App() {
             </div>
             <div>
               <h4>Plastic</h4>
-              <p>Plastic yoyos run the gamut from literally unusable discount-store trash to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. On the other hand, you can also get a very good injection-molded yoyo that you'll enjoy forever for $20 or less.</p>
+              <p>Plastic yoyos run the gamut from literally unusable discount-store trash to beautifully machined <a href="https://en.wikipedia.org/wiki/Polyoxymethylene">POM</a> (AKA "Delrin," which is a brand name) or <a href="https://en.wikipedia.org/wiki/Polycarbonate">polycarbonate</a> that feel and play great and cost as much as a decent aluminum yoyo. There can be some advantages to these, <a href="#plastic">as discussed below</a>. On the other hand, you can also get a very good molded plastic yoyo that you'll enjoy forever for $20 or less.</p>
             </div>
             <div>
               <h4>Aluminum</h4>
@@ -157,7 +157,7 @@ function App() {
             <div className="primary">
               <div>
                 <h4 className="headersgap">Cotton</h4> 
-                <p>Used for fixed-axle, especially wooden yoyos (synthetic strings are said to melt from the friction). They don't last long and need to be checked for wear regularly. Synthetic strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is somewhat more likely with cotton, however.</p>
+                <p>Used for fixed-axle, especially wooden yoyos (synthetic strings can melt from the friction). They don't last long and need to be checked for wear regularly. Synthetic strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is more likely with cotton, however.</p>
               </div>
               <div>
                 <h4>Polyester</h4> 
@@ -185,7 +185,7 @@ function App() {
         <section>
           <Nav />
           <h2 id="gettingstarted">Getting started</h2>
-            <h3 className="headersgap">What yoyo should I buy?</h3>
+            <h3>What yoyo should I buy?</h3>
             <p>There are a couple of different approaches:</p>
             <ol className="list-decimal">
               <li>Get one of the yoyos <a href="#both">that can be played either responsive or unresponsive</a> by swapping out the bearing. I did this, and it worked fine, but once I got into unresponsive play it was annoying until I bought a second yoyo to play responsive. Swapping out the bearing is not difficult, but it gets tiresome if you feel the urge to do it frequently.</li>
@@ -219,7 +219,7 @@ function App() {
           <Nav />
           <h2 id="faqs">FAQs (with somewhat controversial answers)</h2>
             <div>
-              <h3 id="lube" className="headersgap">Unresponsive lube</h3>
+              <h3 id="lube">Unresponsive lube</h3>
               <ul>
               <p className="question">Should I use thin lube on my unresponsive bearings?</p>
               <li>
@@ -230,7 +230,7 @@ function App() {
                 <p className="point">People living in some very humid and/or salty climates report that bearing lube isn't really optional for them. Bearings tend to rust otherwise.</p>
               </li>
               <li>
-                <p><b>My opinion</b>: Feel free to use thin lube, for noisy or rough-feeling bearings at the very least. Use a pin or similar to apply a very small amount, ideally less than a drop. I've seen some instructions telling people to put in way too much. Too much does make the bearing semi-responsive, and then you'd need to <a href="https://www.google.com/search?q=how%20to%20clean%20a%20yoyo%20bearing">clean it</a> and start over.</p>
+                <p><b>My opinion</b>: Feel free to experiment with thin lube, for noisy or rough-feeling bearings at the very least. Use a pin or similar to apply a very small amount, ideally less than a drop. I've seen some instructions telling people to put in way too much. Too much does make the bearing semi-responsive, and then you'd need to <a href="https://www.google.com/search?q=how%20to%20clean%20a%20yoyo%20bearing">clean it</a> and start over.</p>
               </li>
               </ul>
             </div>
@@ -264,8 +264,8 @@ function App() {
               <p>No, plastic is not as good as aluminum, performance-wise. (Yes, you can find excellent plastic yoyos that are better than mediocre aluminum yoyos. That's not the point.) Plastic can work very well, though. Its main advantages over a decent budget/b-grade/pre-owned aluminum yoyo are situational:</p>
               <ul>
                 <li>You're a beginner, or, are otherwise learning something that might cause you to hit yourself or other things a lot (ex: horizontal tricks, 5A tricks).</li>
-                <li>You're playing over pavement/bricks etc. You might have an aluminum yoyo that you don't mind beating up, but a) pavement is particularly brutal and b) if you're somewhere quiet, the noise it makes when it hits makes everyone nearby cringe. Everyone has their own relationship with this, though.</li>
-                <li>You're playing somewhere cold. Plastic is much more forgiving on cold hands. </li>
+                <li>You're playing over pavement/bricks etc. Everyone should have some yoyos they don't mind damaging (if not all of them), but pavement dings on aluminum are the worst.</li>
+                <li>You're playing somewhere cold. Plastic is much more forgiving on cold hands.</li>
                 <li>You want a cheap, easily-replaceable yoyo due to the chance of it getting lost or stolen where you're going (school or summer camp being prime examples).</li>
                 <li>You feel like playing with a plastic yoyo.</li>
               </ul>
@@ -285,7 +285,7 @@ function App() {
               <h3>Shapes</h3>
               <p className="question">Wow, these come in a lot of shapes. Which one is best?</p>
               <ul>
-                <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. (The shape-naming convention is explained in detail elsewhere online by people more knowledgeable than me, so I'm not repeating it here. A good one is on the <a href="https://www.yanasiyoyo.com/blog/2018/1/22/the-shape-of-things">Yanasi Yoyo blog</a>.)</li>
+                <li>You'll often see shapes broadly categorized as "V," "W," "H," or "O," which is just a shorthand since many designs don't fit neatly into one of these, and, it doesn't always tell you much. The shape-naming convention is explained in detail elsewhere online by people more knowledgeable than me, so I'm not repeating it here. A good one is on the <a href="https://www.yanasiyoyo.com/blog/2018/1/22/the-shape-of-things">Yanasi Yoyo blog</a>.</li>
                 <li>A typical contemporary performance-oriented (or competition/"comp") yoyo has one of the more angular profiles, a lot of rim weight, and is often fairly wide. Beyond these, there are an enormous variety of yoyos that are popular for their fun factor, feel in the hand, and suitability for more casual playstyles, instead of pure performance.</li>
                 <li>When you're new, it's easy to get the idea that you'll always want to play with the most performance-oriented yoyos you can get. That's true to an extent when you're working on something new&mdash;it's easier to land and figure out the tricks you're learning. Just don't be surprised if your taste in yoyos evolves over time, or even day to day, after you've been playing for a while.</li>
                 <li>The specific shape you get for your first yoyo doesn't matter much. Get the one you want to play with.</li>
@@ -295,7 +295,7 @@ function App() {
       </main>
     <footer className="bg-secondaryone-verydark">
       <div className="footertext">
-        <p>&copy;2021 Sarah Wilkes</p>
+        <p>&copy;2021 <a href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
       </div>
     </footer>
     </div>
