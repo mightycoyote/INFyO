@@ -24,7 +24,7 @@
         @apply text-2xl lg:text-3xl;
     }
     h5 {
-        @apply text-xl lg:text-2xl;
+        @apply text-2xl;
     }
     /* TW docs recommend "body" styles be done in the html, but that doesn't work in Create-React-App */
     body {
