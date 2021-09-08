@@ -23,7 +23,7 @@ function App() {
           <div className="mx-auto p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
           <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INF-yO</h1>
-          <p className="pt-2 text-lg md:text-2xl">Stuff I wish I knew sooner about modern yoyos</p>
+          <p className="pt-2 text-lg md:text-2xl">A brief primer on modern yoyos</p>
           </div>
         </div>
       </header>
@@ -31,7 +31,7 @@ function App() {
       <main>
         <Nav />
         <section>
-          <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is a just an explanation of the things I found confusing when I was starting out.</p>
+          <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is an overview, plus some FAQs. Let's get started!</p>
         </section>
         <section>
           <h2 id="basics">Modern yoyo basics</h2>
@@ -109,7 +109,7 @@ function App() {
           <h3 id="materials" className="clear-both">Materials</h3>
           <div className="columns">
             <div>
-              <h4 className="headersgap">Wood</h4>
+              <h4>Wood</h4>
               <p>These are usually, but not always, fixed-axle. Good cheap ones are available, but you can also find fancier models with features like adjustable axles and nice hardwoods.</p>
             </div>
             <div>

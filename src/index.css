@@ -108,9 +108,9 @@
         }
     }
     /* this is to trim the space between two consecutive headers. Could possibly be done with a selector, but has to apply to different combos  */
-    .headersgap {
+    /* .headersgap {
         @apply pt-3;
-    }
+    } */
     /* styling for arrow and yoyo emoji paras */
     
     .question {
