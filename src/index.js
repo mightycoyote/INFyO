@@ -31,7 +31,7 @@ function App() {
       <main>
         <Nav />
         <section>
-          <p className="point">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is an overview, plus some FAQs. Let's get started!</p>
+          <p className="point pb-5">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is an overview, plus some FAQs. Let's get started!</p>
         </section>
         <section>
           <h2 id="basics">Modern yoyo basics</h2>
