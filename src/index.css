@@ -112,10 +112,7 @@
         @apply pt-3;
     }
     /* styling for arrow and yoyo emoji paras */
-    .point::before {
-        content: "\2192";
-        @apply text-secondaryone-dark font-bold pr-2;
-    }
+    
     .question {
         font-style: italic;
     }
@@ -125,14 +122,15 @@
         @apply pr-2;
     }
     @media (min-width: 768px) {
-        .point, .question {
-            @apply pl-8;
-        }
         .point::before {
-            @apply text-2xl -ml-8 relative top-px;
+            content: "\2192";
+            @apply text-secondaryone-dark font-bold pr-2 text-2xl -ml-8 relative top-px;
         }
         .question::before {
             @apply text-2xl -ml-8 relative top-0.5;
+        }
+        .point, .question {
+            @apply pl-8;
         }
      }
 }
