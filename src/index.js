@@ -22,7 +22,7 @@ function App() {
        <div className="bg-secondaryone-verydark text-complementary-light flex">
           <div className="mx-auto p-8">
           <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
-          <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INF-yO</h1>
+          <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INFyO</h1>
           <p className="pt-2 text-lg md:text-2xl">A brief primer on modern yoyos</p>
           </div>
         </div>
