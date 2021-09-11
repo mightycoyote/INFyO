@@ -168,7 +168,7 @@ function App() {
             </div>
             <div>
               <h4>Polyester</h4> 
-              <p>The most common string material for bearing-axle yoyos. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
+              <p>The most common, standard string material for bearing-axle yoyos. They range from very cheap to somewhat expensive ($1 or more per string). String quality isn't that important when you're first starting out. After that&mdash;how good the strings need to be, which characteristics are important to you, and how much you spend on them are mostly up to personal preference.</p>
             </div>
             <div>
               <h4>Nylon or nylon-polyester blend</h4>
