@@ -32,7 +32,7 @@ function App() {
         <Nav />
         <p className="point pb-5">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is an overview, plus some FAQs. Let's get started!</p>
         <h2 id="basics">Modern yoyo basics</h2>
-        <h3 className="headersgap">Behavior</h3>
+        <h3>Behavior</h3>
           <div className="column-nowrap">
             <div className="primary">
               <ul className="pt-1 mb-6">
@@ -66,7 +66,7 @@ function App() {
         <div className="column-nowrap">
           <div className="primary">
             <div>
-              <h4 className="headersgap">Fixed-axle</h4>
+              <h4>Fixed-axle</h4>
               <p>Also called "fixie." Responsive. E.g, your basic wooden yoyo, or Duncan Imperial or similar. Wooden yoyos come back when you tug on them due to the friction from the wood itself. Yoyos made with slicker materials generally need to add something to the area next to the axle (called the "response area") to create the friction.</p>
             </div>
             <div>
@@ -153,24 +153,27 @@ function App() {
           </aside>
           <div className="primary">
             <div>
-              <h4 className="headersgap">Cotton</h4> 
+              <h4>Considerations</h4>
+              <p>The main qualities (or lack thereof, depending) of strings are:</p>
+              <ol className="list-decimal">
+                <li>Whippiness/body. This is probably the most important for advanced play. The string has to have a certain amount of body, or density, to work in whip or slack tricks. (Imagine trying to throw a loop of rope around a post. Now imagine trying to throw a loop of fluffy yarn around it. It's like that.)</li>
+                <li>Tension/twistiness control. Yoyo strings, for the last 100 years or so, are made of a double-length string that is folded in half and then twisted tightly on itself. (The yoyo axle goes in the natural loop at the end.) It's completely normal for the tension of the twist to change during play, with the direction it goes in depending on what you're doing and which hand you're using. Some strings are less prone to twisting up on themselves than others.</li>
+                <li>Longevity. Average cheap polyester strings generally don't last longer than an hour or two. Which is fine&mdash;they're cheap. As strings get higher quality and more expensive, they tend to last a bit longer too. At the extreme end there are strings that can last for months.</li>
+                <li>Roughness/stiffness. Depending on the thread that is used in them, strings can vary a lot in how rough or soft-feeling they are on your hands. For some people this is a big consideration in choosing string&mdash;for others, not so much.</li>
+              </ol>
+            </div>
+            <div>  
+              <h4>Cotton</h4> 
               <p>Used for fixed-axle, especially wooden yoyos (synthetic strings can melt from the friction). They don't last long and need to be checked for wear regularly. Synthetic strings don't usually wear out enough to break&mdash;<a href="#changingstrings">generally they become unusable in other ways before then</a>. Breakage is more likely with cotton, however.</p>
             </div>
             <div>
               <h4>Polyester</h4> 
-              <p>The standard for most kinds of play. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
-              <p>The cheapest strings:</p>
-              <ol className="list-decimal">
-                <li>Don't whip well&mdash;that is, they don't have enough body to form a good loop when doing a slack trick.</li>
-                <li>Are especially prone to twisting up on themselves (all string does this as the tension changes naturally during play, but better strings resist it more).</li>
-                <li>Don't last long, maybe a couple of hours. This is one of the more significant considerations costwise&mdash;the most expensive strings do often last a lot longer.</li>
-                <li>Might be rough. Personally, I need my strings to be on the soft side since my hands are chapped all winter, but some popular bulk strings are rough and their fans don't seem to mind. I've also encountered cheap strings that are soft, but poor at 1-3.</li>
-              </ol>
+              <p>The most common string material for bearing-axle yoyos. They range from very cheap to somewhat expensive ($1 or more per string). Nowadays it's possible to get strings that are fairly cheap <em>and</em> fairly good at the same time. Like the yoyos themselves, personal preference is a strong factor in how good the strings need to be, which characteristics are important to you, and how much you spend on them.</p>
             </div>
             <div>
               <h4>Nylon or nylon-polyester blend</h4>
-              <p>Nylon is soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. It's something of an acquired taste, but has a devoted following. It also tends to be fairly expensive, but that can be offset by the longevity.</p>
-              <p className="point">Premium nylon is very soft on the hands, but also so slick that many players have to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
+              <p>Nylon is usually soft and long-lasting, but also plays very differently from polyester. It's more bouncy and stretches more during play, and whips very fast. Blends vary in this depending on how much nylon is used. Not everyone likes it, but it's worth a try as you get more advanced. Decent nylon strings also tend to be fairly expensive, but that can be offset by the longevity.</p>
+              <p className="point">Some nylon formulations are so slick that you may need to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
             </div> 
           </div>
           <aside className="box box-last">
@@ -204,7 +207,7 @@ function App() {
               </aside>
             </div>
           <h3>Resources</h3>
-            <h4 className="headersgap">Videos</h4>
+            <h4>Videos</h4>
               <p>There are lots and lots of free online tutorials, both for tricks and for maintenance how-tos. Check out several channels&mdash;some teaching styles will probably work better for you than others. Similarly, if you're having trouble understanding a trick, go find an alternate explanation of it. This may seem obvious, but it's easy to forget when you're feeling frustrated.</p>
             <h4>Online communities</h4>
             <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
