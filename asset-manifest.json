@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ff104d68.chunk.css",
-    "main.js": "/static/js/main.bad61f6f.chunk.js",
-    "main.js.map": "/static/js/main.bad61f6f.chunk.js.map",
+    "main.js": "/static/js/main.165b33f1.chunk.js",
+    "main.js.map": "/static/js/main.165b33f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.694a9b2a.js",
     "runtime-main.js.map": "/static/js/runtime-main.694a9b2a.js.map",
     "static/js/2.6010bf74.chunk.js": "/static/js/2.6010bf74.chunk.js",
@@ -12,20 +12,20 @@
     "index.html": "/index.html",
     "static/css/main.ff104d68.chunk.css.map": "/static/css/main.ff104d68.chunk.css.map",
     "static/js/2.6010bf74.chunk.js.LICENSE.txt": "/static/js/2.6010bf74.chunk.js.LICENSE.txt",
-    "static/media/atomiccrash.a93069fe.jpg": "/static/media/atomiccrash.a93069fe.jpg",
-    "static/media/speedaholic-freehand.fb5b1b13.jpg": "/static/media/speedaholic-freehand.fb5b1b13.jpg",
-    "static/media/spinstar-assembled.3b4253e8.jpg": "/static/media/spinstar-assembled.3b4253e8.jpg",
-    "static/media/spinstar-inside.0a890438.jpg": "/static/media/spinstar-inside.0a890438.jpg",
-    "static/media/starters.942674f6.jpg": "/static/media/starters.942674f6.jpg",
-    "static/media/terrarian-assembled.c82cdb57.jpg": "/static/media/terrarian-assembled.c82cdb57.jpg",
-    "static/media/terrarian-inside.05635895.jpg": "/static/media/terrarian-inside.05635895.jpg",
-    "static/media/ti-vayder.415de566.jpg": "/static/media/ti-vayder.415de566.jpg",
+    "static/media/atomiccrash.61dbb0c1.jpg": "/static/media/atomiccrash.61dbb0c1.jpg",
+    "static/media/speedaholic-freehand.eb19a735.jpg": "/static/media/speedaholic-freehand.eb19a735.jpg",
+    "static/media/spinstar-assembled.eb71b594.jpg": "/static/media/spinstar-assembled.eb71b594.jpg",
+    "static/media/spinstar-inside.9d576f41.jpg": "/static/media/spinstar-inside.9d576f41.jpg",
+    "static/media/starters.c2045b33.jpg": "/static/media/starters.c2045b33.jpg",
+    "static/media/terrarian-assembled.f64057ff.jpg": "/static/media/terrarian-assembled.f64057ff.jpg",
+    "static/media/terrarian-inside.9ad06985.jpg": "/static/media/terrarian-inside.9ad06985.jpg",
+    "static/media/ti-vayder.6048db29.jpg": "/static/media/ti-vayder.6048db29.jpg",
     "static/media/yoyo-topdown.f2e1a708.jpg": "/static/media/yoyo-topdown.f2e1a708.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.694a9b2a.js",
     "static/js/2.6010bf74.chunk.js",
     "static/css/main.ff104d68.chunk.css",
-    "static/js/main.bad61f6f.chunk.js"
+    "static/js/main.165b33f1.chunk.js"
   ]
 }
