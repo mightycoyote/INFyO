@@ -1,10 +1,11 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         primary: {
+          // blue
           DEFAULT: 'hsl(222, 81%, 31%)',
           light: 'hsl(222, 64%, 40%)',
           verylight: 'hsl(222, 44%, 48%)',
@@ -12,6 +13,7 @@ module.exports = {
           verydark: 'hsl(222, 89%, 18%)',
         },
         secondaryone: {
+          // dark purple-blue
           DEFAULT: 'hsl(254, 79%, 32%)',
           light: 'hsl(254, 63%, 42%)',
           verylight: 'hsl(254, 43%, 50%)',
@@ -19,6 +21,7 @@ module.exports = {
           verydark: 'hsl(254, 88%, 19%)',
         },
         secondarytwo: {
+          // teal
           DEFAULT: 'hsl(180, 100%, 25%)',
           light: 'hsl(180, 78%, 33%)',
           verylight: 'hsl(180, 52%, 41%)',
@@ -26,6 +29,7 @@ module.exports = {
           verydark: 'hsl(180, 100%, 15%)',
         },
         complementary: {
+          // yellow
           DEFAULT: 'hsl(40, 100%, 42%)',
           light: 'hsl(40, 96%, 55%)',
           verylight: 'hsl(40, 100%, 66%)',
