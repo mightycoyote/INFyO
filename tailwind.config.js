@@ -11,6 +11,7 @@ module.exports = {
           verylight: 'hsl(222, 44%, 48%)',
           dark: 'hsl(222, 84%, 25%)',
           verydark: 'hsl(222, 89%, 18%)',
+          pale: 'hsl(222, 35%, 95%)',
         },
         secondaryone: {
           // dark purple-blue
@@ -19,6 +20,7 @@ module.exports = {
           verylight: 'hsl(254, 43%, 50%)',
           dark: 'hsl(254, 83%, 26%)',
           verydark: 'hsl(254, 88%, 19%)',
+          pale: 'hsl(254, 72%, 85%)',
         },
         secondarytwo: {
           // teal

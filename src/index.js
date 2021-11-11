@@ -290,7 +290,7 @@ function App() {
       </main>
     <footer className="bg-secondaryone-verydark">
       <div className="footertext">
-        <p>&copy;2021 <a className="text-indigo-50" href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
+        <p>&copy;2021 <a className="text-primary-pale" href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
       </div>
     </footer>
     </div>
