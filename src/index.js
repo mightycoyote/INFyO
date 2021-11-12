@@ -19,9 +19,9 @@ function App() {
     <div>
     {/* header */}
        <header>
-       <div className="bg-secondaryone-verydark text-complementary-light flex">
+       <div className="bg-secondaryone-verydark dark:bg-secondaryone-light text-complementary-light dark:text-complementary-verylight flex">
           <div className="mx-auto p-8">
-          <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light"></img>
+          <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light dark:ring-complementary-verylight"></img>
           <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INFyO</h1>
           <p className="pt-2 text-lg md:text-2xl">A brief primer on modern yoyos</p>
           </div>
@@ -288,7 +288,7 @@ function App() {
             </ul>
           </div>
       </main>
-    <footer className="bg-secondaryone-verydark">
+    <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light">
       <div className="footertext">
         <p>&copy;2021 <a className="text-primary-pale" href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
       </div>

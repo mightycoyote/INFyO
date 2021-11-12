@@ -32,7 +32,7 @@
     }
     /* Technically these could be left in the html since there is only one main, but I put them here for convenience */
     main {
-        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-primary-pale dark:bg-gray-900 text-gray-900 dark:text-primary-pale pl-6 pr-5 pb-4 sm:pb-12 sm:px-14 mb-4;
+        @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-primary-pale dark:bg-gray-900 text-gray-900 dark:text-primary-darkmodetext pl-6 pr-5 pb-4 sm:pb-12 sm:px-14 mb-4;
     }
     .footertext {
         @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto py-4 text-primary-pale text-sm px-6;
@@ -47,19 +47,19 @@
         @apply pb-1;
     }
     a {
-        @apply underline text-primary dark:text-primary-verylight focus:text-complementary dark:focus:text-complementary-light;
+        @apply underline text-primary dark:text-secondaryone-pale focus:text-complementary dark:focus:text-complementary-light;
     }
     nav a {
-        @apply inline-block text-center p-2 no-underline text-secondaryone-verydark dark:text-secondaryone-pale hover:bg-complementary-verylight dark:hover:bg-complementary rounded-md hover:text-gray-900;
+        @apply inline-block text-center p-2 no-underline text-secondaryone-verydark dark:text-secondaryone-pale hover:bg-complementary-verylight rounded-md hover:text-gray-900;
     }
     nav li {
         @apply md:m-3;
     }
     figure {
-        @apply bg-white dark:bg-primary-pale p-5 max-w-lg;
+        @apply bg-white dark:bg-primary-darkmodetext p-5 max-w-lg;
     }
     figure img {
-        @apply w-full h-full object-cover;
+        @apply w-full h-full object-cover dark:filter brightness-75 contrast-125;
     }
     figcaption {
         @apply pt-2 italic dark:text-primary-verydark;
@@ -84,11 +84,8 @@
     .halfsies {
         @apply lg:grid lg:gap-10 lg:grid-cols-2;
     }
-    /* .column-nowrap > *, .column-nowrap-reverse > *, .halfsies > * {
-        @apply mt-0;
-    } */
     .box {
-        @apply place-self-start bg-gradient-to-br from-secondarytwo-light dark:from-secondarytwo via-secondarytwo dark:via-secondarytwo-dark to-green-600 dark:to-green-700 text-white dark:text-primary-pale rounded p-6 shadow;
+        @apply place-self-start bg-gradient-to-br from-secondarytwo-light dark:from-secondarytwo-dark via-secondarytwo dark:via-secondarytwo-verydark to-green-600 dark:to-green-800 text-white dark:text-primary-darkmodetext rounded p-6 shadow;
     }
     .box, figure {
         @apply my-6 lg:mt-1;
@@ -107,10 +104,7 @@
             display: none;
         }
     }
-    /* this is to trim the space between two consecutive headers. Could possibly be done with a selector, but has to apply to different combos  */
-    /* .headersgap {
-        @apply pt-3;
-    } */
+   
     /* styling for arrow and yoyo emoji paras */
     
     .question {
@@ -124,7 +118,7 @@
     @media (min-width: 768px) {
         .point::before {
             content: "\2192";
-            @apply text-secondaryone-dark dark:text-secondaryone-verylight font-bold pr-2 text-2xl -ml-8 relative top-px;
+            @apply text-secondaryone-dark dark:text-secondaryone-pale font-bold pr-2 text-2xl -ml-8 relative top-px;
         }
         .question::before {
             @apply text-2xl -ml-8 relative top-0.5;

@@ -12,6 +12,7 @@ module.exports = {
           dark: 'hsl(222, 84%, 25%)',
           verydark: 'hsl(222, 89%, 18%)',
           pale: 'hsl(222, 35%, 95%)',
+          darkmodetext: 'hsl(222, 35%, 85%)',
         },
         secondaryone: {
           // dark purple-blue
@@ -42,7 +43,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      filter: ['dark'],
+    },
   },
   plugins: [],
 }
