@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -15,15 +15,27 @@ import atomiccrash from './img/atomiccrash.jpg';
 import tivayder from './img/ti-vayder.jpg';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  });
+
   return (
-    <div>
+    <div className="bg-primary-pale dark:bg-gray-900">
     {/* header */}
        <header>
-       <div className="bg-secondaryone-verydark dark:bg-secondaryone-light text-complementary-light dark:text-complementary-verylight flex">
-          <div className="mx-auto p-8">
-          <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light dark:ring-complementary-verylight"></img>
-          <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INFyO</h1>
-          <p className="pt-2 text-lg md:text-2xl">A brief primer on modern yoyos</p>
+        <div className="bg-secondaryone-verydark dark:bg-secondaryone-light text-complementary-light dark:text-complementary-verylight relative">
+          <button className="font-light absolute bottom-0 sm:bottom-auto sm:top-0 right-0 text-xs p-1 m-1 rounded ring-1 ring-complementary-light dark:ring-complementary-verylight" onClick={() => {setDarkMode(!darkMode)}}>toggle dark mode</button>
+          <div className="flex">
+            <div className="mx-auto p-8">
+              <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light dark:ring-complementary-verylight"></img>
+              <h1 className="inline-block align-middle pl-4 text-5xl sm:text-6xl md:text-8xl">INFyO</h1>
+              <p className="pt-2 text-lg md:text-2xl">A brief primer on modern yoyos</p>
+            </div>
           </div>
         </div>
       </header>
@@ -288,11 +300,11 @@ function App() {
             </ul>
           </div>
       </main>
-    <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light">
-      <div className="footertext">
-        <p>&copy;2021 <a className="text-primary-pale" href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
-      </div>
-    </footer>
+      <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light">
+        <div className="footertext">
+          <p>&copy;2021 <a className="text-primary-pale" href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
+        </div>
+      </footer>
     </div>
   );
 }

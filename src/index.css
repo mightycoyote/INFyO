@@ -27,9 +27,9 @@
         @apply text-2xl;
     }
     /* TW docs recommend "body" styles be done in the html, but that doesn't work in Create-React-App */
-    body {
+    /* body {
         @apply bg-primary-pale dark:bg-gray-900;
-    }
+    } */
     /* Technically these could be left in the html since there is only one main, but I put them here for convenience */
     main {
         @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-primary-pale dark:bg-gray-900 text-gray-900 dark:text-primary-darkmodetext pl-6 pr-5 pb-4 sm:pb-12 sm:px-14 mb-4;
