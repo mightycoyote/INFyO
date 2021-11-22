@@ -22,13 +22,14 @@ function App() {
     } else {
       document.body.classList.remove("dark");
     }
-  });
+  }, [darkMode]);
 
   return (
     <div className="bg-primary-pale dark:bg-gray-900">
     {/* header */}
        <header>
         <div className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70 text-complementary-light dark:text-complementary-verylight relative">
+          {/* here's the darkmode button */}
           <button className="font-light absolute bottom-0 sm:bottom-auto sm:top-0 right-0 text-xs p-1 m-1 rounded ring-1 ring-complementary-light dark:ring-complementary-verylight" onClick={() => {setDarkMode(!darkMode)}}>toggle dark mode</button>
           <div className="flex">
             <div className="mx-auto p-8">
