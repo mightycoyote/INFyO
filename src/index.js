@@ -28,7 +28,7 @@ function App() {
     <div className="bg-primary-pale dark:bg-gray-900">
     {/* header */}
        <header>
-        <div className="bg-secondaryone-verydark dark:bg-secondaryone-light text-complementary-light dark:text-complementary-verylight relative">
+        <div className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70 text-complementary-light dark:text-complementary-verylight relative">
           <button className="font-light absolute bottom-0 sm:bottom-auto sm:top-0 right-0 text-xs p-1 m-1 rounded ring-1 ring-complementary-light dark:ring-complementary-verylight" onClick={() => {setDarkMode(!darkMode)}}>toggle dark mode</button>
           <div className="flex">
             <div className="mx-auto p-8">
@@ -300,7 +300,7 @@ function App() {
             </ul>
           </div>
       </main>
-      <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light">
+      <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70">
         <div className="footertext">
           <p>&copy;2021 <a className="text-primary-pale" href="https://mightycoyote.github.io/">Sarah Wilkes</a></p>
         </div>
