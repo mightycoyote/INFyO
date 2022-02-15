@@ -13,10 +13,13 @@
     }
     h2 {
         @apply text-4xl lg:text-5xl;
-        @media (min-width: 1024px) {
+    }
+    @media (min-width: 1024px) {
+        h2 {
             font-size: 2.5rem;
         }
     }
+
     h3 {
         @apply text-3xl lg:text-4xl;
     }
@@ -30,7 +33,7 @@
     body {
         @apply bg-indigo-50;
     }
-    /* Technically theses could be left in the html since there is only one main, but I put them here for convenience */
+    /* Technically these could be left in the html since there is only one main, but I put them here for convenience */
     main {
         @apply md:w-11/12 lg:w-5/6 max-w-screen-xl mx-auto bg-indigo-50 text-gray-900 pl-6 pr-5 pb-4 sm:pb-12 sm:px-14 mb-4;
     }
