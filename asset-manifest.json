@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8f9cc47.chunk.css",
-    "main.js": "/static/js/main.cd0733ea.chunk.js",
-    "main.js.map": "/static/js/main.cd0733ea.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.61e49cb4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.61e49cb4.js.map",
-    "static/js/2.8f319ae6.chunk.js": "/static/js/2.8f319ae6.chunk.js",
-    "static/js/2.8f319ae6.chunk.js.map": "/static/js/2.8f319ae6.chunk.js.map",
-    "static/js/3.aed757de.chunk.js": "/static/js/3.aed757de.chunk.js",
-    "static/js/3.aed757de.chunk.js.map": "/static/js/3.aed757de.chunk.js.map",
+    "main.css": "/static/css/main.8ab98a9b.css",
+    "main.js": "/static/js/main.a9083959.js",
+    "static/js/787.f43726a2.chunk.js": "/static/js/787.f43726a2.chunk.js",
+    "static/media/starters.jpg": "/static/media/starters.c2045b33f334434f9d38.jpg",
+    "static/media/spinstar-inside.jpg": "/static/media/spinstar-inside.9d576f41b33b7a1144c6.jpg",
+    "static/media/ti-vayder.jpg": "/static/media/ti-vayder.6048db29462ae8454c0c.jpg",
+    "static/media/terrarian-inside.jpg": "/static/media/terrarian-inside.9ad0698548d1784d34e6.jpg",
+    "static/media/terrarian-assembled.jpg": "/static/media/terrarian-assembled.f64057ff61cbe277de24.jpg",
+    "static/media/spinstar-assembled.jpg": "/static/media/spinstar-assembled.eb71b594ef4039f40297.jpg",
+    "static/media/atomiccrash.jpg": "/static/media/atomiccrash.61dbb0c16bd4001c5dcd.jpg",
+    "static/media/speedaholic-freehand.jpg": "/static/media/speedaholic-freehand.eb19a735b4159bd1bba5.jpg",
+    "static/media/yoyo-topdown.jpg": "/static/media/yoyo-topdown.f2e1a7088254e6dd56d2.jpg",
     "index.html": "/index.html",
-    "static/css/main.b8f9cc47.chunk.css.map": "/static/css/main.b8f9cc47.chunk.css.map",
-    "static/js/2.8f319ae6.chunk.js.LICENSE.txt": "/static/js/2.8f319ae6.chunk.js.LICENSE.txt",
-    "static/media/atomiccrash.61dbb0c1.jpg": "/static/media/atomiccrash.61dbb0c1.jpg",
-    "static/media/speedaholic-freehand.eb19a735.jpg": "/static/media/speedaholic-freehand.eb19a735.jpg",
-    "static/media/spinstar-assembled.eb71b594.jpg": "/static/media/spinstar-assembled.eb71b594.jpg",
-    "static/media/spinstar-inside.9d576f41.jpg": "/static/media/spinstar-inside.9d576f41.jpg",
-    "static/media/starters.c2045b33.jpg": "/static/media/starters.c2045b33.jpg",
-    "static/media/terrarian-assembled.f64057ff.jpg": "/static/media/terrarian-assembled.f64057ff.jpg",
-    "static/media/terrarian-inside.9ad06985.jpg": "/static/media/terrarian-inside.9ad06985.jpg",
-    "static/media/ti-vayder.6048db29.jpg": "/static/media/ti-vayder.6048db29.jpg",
-    "static/media/yoyo-topdown.f2e1a708.jpg": "/static/media/yoyo-topdown.f2e1a708.jpg"
+    "main.8ab98a9b.css.map": "/static/css/main.8ab98a9b.css.map",
+    "main.a9083959.js.map": "/static/js/main.a9083959.js.map",
+    "787.f43726a2.chunk.js.map": "/static/js/787.f43726a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.61e49cb4.js",
-    "static/js/2.8f319ae6.chunk.js",
-    "static/css/main.b8f9cc47.chunk.css",
-    "static/js/main.cd0733ea.chunk.js"
+    "static/css/main.8ab98a9b.css",
+    "static/js/main.a9083959.js"
   ]
 }
