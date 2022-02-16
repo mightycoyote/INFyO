@@ -22,6 +22,8 @@ function App() {
     } else {
       document.body.classList.remove("dark");
     }
+    // [darkMode] at the end is an optional second argument to useEffect() to check if it's changed before re-rendering
+    // should keep it from misbehaving when I add preference settings
   }, [darkMode]);
 
   return (
