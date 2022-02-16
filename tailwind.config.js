@@ -1,6 +1,9 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'class', // or 'media' or 'class'
+  content: [
+    './src/*.js',
+    './src/js/*.js',
+  ],
+  
   theme: {
     extend: {
       colors: {
@@ -40,11 +43,6 @@ module.exports = {
           verydark: 'hsl(40, 100%, 26%)',
         },
       },
-    },
-  },
-  variants: {
-    extend: {
-      filter: ['dark'],
     },
   },
   plugins: [],
