@@ -15,7 +15,8 @@ import atomiccrash from './img/atomiccrash.jpg';
 import tivayder from './img/ti-vayder.jpg';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [darkMode, setDarkMode] = useState(defaultDark ? true : false);
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark");
