@@ -32,7 +32,10 @@ function App() {
        <header>
         <div className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70 text-complementary-light dark:text-complementary-verylight relative">
           {/* here's the darkmode button */}
-          <button className="font-light absolute bottom-0 sm:bottom-auto sm:top-0 right-0 text-xs p-1 m-1 rounded ring-1 ring-complementary-light dark:ring-complementary-verylight" onClick={() => {setDarkMode(!darkMode)}}>toggle dark mode</button>
+          <button className="font-light absolute bottom-0 sm:bottom-auto sm:top-0 right-0 text-xs p-1 m-1 rounded ring-1 ring-complementary-light dark:ring-complementary-verylight" 
+            onClick={() => {setDarkMode(!darkMode)}}>
+            toggle dark mode
+          </button>
           <div className="flex">
             <div className="mx-auto p-8">
               <img src={headerpic} alt="Legendary Terrarian yoyo by One Drop" className="max-h-16 rounded-full inline-block ring-4 ring-complementary-light dark:ring-complementary-verylight"></img>
