@@ -49,7 +49,7 @@
         @apply underline text-primary dark:text-secondaryone-pale focus:text-complementary dark:focus:text-complementary-light;
     }
     nav a {
-        @apply inline-block text-center p-2 no-underline text-secondaryone-verydark dark:text-secondaryone-pale hover:bg-complementary-verylight rounded-md hover:text-gray-900;
+        @apply inline-block text-center p-2 no-underline text-secondaryone-verydark dark:text-secondaryone-pale  hover:bg-complementary-verylight rounded-md hover:text-gray-900 dark:hover:text-secondaryone-verydark;
     }
     nav li {
         @apply md:m-3;

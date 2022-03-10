@@ -15,13 +15,17 @@ import atomiccrash from './img/atomiccrash.jpg';
 import tivayder from './img/ti-vayder.jpg';
 
 function App() {
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [darkMode, setDarkMode] = useState(defaultDark ? true : false);
+  const localPref = JSON.parse(localStorage.getItem('darkMode')); // boolean or null
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches; // boolean
+  const userPref = localPref ?? defaultDark;
+  const [darkMode, setDarkMode] = useState(userPref); // will turn on darkMode if evaluated to true
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark");
+      localStorage.setItem('darkMode', true);
     } else {
       document.body.classList.remove("dark");
+      localStorage.setItem('darkMode', false);
     }
     // [darkMode] at the end is an optional second argument to useEffect() to check if it's changed before re-rendering
     // should keep it from misbehaving when I add preference settings
