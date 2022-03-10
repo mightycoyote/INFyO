@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="dark light">
+    <!-- should make search bar area match the header bg in some mobile browsers -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="hsl(254, 88%, 19%)">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(254, 63%, 42%)">
     <meta
       name="description"
       content="A primer on modern yoyos - what they're made of, how to get started, and why some of them don't come back."
