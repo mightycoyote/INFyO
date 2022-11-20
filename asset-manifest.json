@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a28e5bcb.css",
-    "main.js": "/static/js/main.0a04dbb2.js",
+    "main.js": "/static/js/main.c35c3b52.js",
     "static/js/787.f43726a2.chunk.js": "/static/js/787.f43726a2.chunk.js",
     "static/media/starters.jpg": "/static/media/starters.c2045b33f334434f9d38.jpg",
     "static/media/spinstar-inside.jpg": "/static/media/spinstar-inside.9d576f41b33b7a1144c6.jpg",
@@ -14,11 +14,11 @@
     "static/media/yoyo-topdown.jpg": "/static/media/yoyo-topdown.f2e1a7088254e6dd56d2.jpg",
     "index.html": "/index.html",
     "main.a28e5bcb.css.map": "/static/css/main.a28e5bcb.css.map",
-    "main.0a04dbb2.js.map": "/static/js/main.0a04dbb2.js.map",
+    "main.c35c3b52.js.map": "/static/js/main.c35c3b52.js.map",
     "787.f43726a2.chunk.js.map": "/static/js/787.f43726a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a28e5bcb.css",
-    "static/js/main.0a04dbb2.js"
+    "static/js/main.c35c3b52.js"
   ]
 }
