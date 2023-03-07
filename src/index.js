@@ -124,10 +124,10 @@ function App() {
               <li><b>"C" bearings</b> <a href="#lube">can be played without lube</a>. But, they have more variations. Most yoyos come with one that's concave, or has a groove or channel in it, instead of a plain flat bearing. This helps keep the string towards the center of the bearing, which in turn makes it easier to keep the yoyo from drifting off plane. Centering bearings are popular for good reason, but bearing shape is also a matter of personal preference, and not all yoyos work equally well with all shapes.</li>
             </ul>
           </div>
-          <aside className="box">
-            <span className="boxhead">Big and small</span>
-            <p>Manufacturers do still make some string trick yoyos that take bearings other than "C"&mdash;typically "D" or "A". That would be mentioned in the product description, though. If the size isn't mentioned and it's a contemporary string trick yoyo, you can assume it's size C. (If it's a collectors' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)</p>
-          </aside>
+          <Aside 
+            title="Big and small"
+            content={'Manufacturers do still make some string trick yoyos that take bearings other than "C"\u2014typically "D" or "A". That would be mentioned in the product description, though. If the size isn\'t mentioned and it\'s a contemporary string trick yoyo, you can assume it\'s size C. (If it\'s a collectors\' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)'}
+          />
         </div>
         <Nav />
         <h3 id="materials" className="clear-both">Materials</h3>
@@ -227,11 +227,11 @@ function App() {
                 </ol>
                 <Img src={starters} alt="Three plastic yoyos" caption="A few plastic yoyos that come packaged with both responsive and unresponsive bearings (left to right: YoYoFactory Arrow, Recess First Base, iYoYo Shooting Star)." />
               </div>
-              <aside className="box">
-              <span className="boxhead">Being prepared</span>
-                <p>The one thing you should definitely buy with your first yoyo is extra string (if you're not getting a package deal that comes with it already). They don't need to be fancy or expensive, and a 100-pack might be overkill, but you do need some. When I bought my first yoyo, I had no idea the strings would wear out so fast (typically an hour or two).</p>
-                <p className="point">Many people find dark string too hard to see. This can also be true of plain white. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, just get a bright color too.</p>
-              </aside>
+              <Aside 
+                title="Being prepared"
+                content="The one thing you should definitely buy with your first yoyo is extra string (if you're not getting a package deal that comes with it already). They don't need to be fancy or expensive, and a 100-pack might be overkill, but you do need some. When I bought my first yoyo, I had no idea the strings would wear out so fast (typically an hour or two)."
+                pointContent="Many people find dark string too hard to see. This can also be true of plain white. Bright yellow, green, orange, or pink are recommended instead. If you really want to get something like blue or purple, just get a bright color too."
+              />
             </div>
           <h3>Resources</h3>
             <h4>Videos</h4>
@@ -275,10 +275,14 @@ function App() {
                   </li>
                 </ul>
               </div>
-              <aside className="box">
+              <Aside 
+                title="Not a destination"
+                content={'A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever\u2014it\'s not really an either/or thing. That\'s one of the reasons it\'s nice to have one of each available when you\'re ready to start messing around with unresponsive play.'}
+              />
+              {/* <aside className="box">
                 <span className="boxhead">Not a destination</span>
                 <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
-              </aside>
+              </aside> */}
             </div>
           </div>
           <div className="clear-both">
