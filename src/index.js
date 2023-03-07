@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import headerpic from './img/yoyo-topdown.jpg';
 import Img from './js/img';
 import Nav from './js/nav';
+import Aside from './js/aside';
 import terrarian from './img/terrarian-assembled.jpg';
 import spinstar from './img/spinstar-assembled.jpg';
 import freehand from './img/speedaholic-freehand.jpg';
@@ -67,11 +68,12 @@ function App() {
               </ul>                
               <Img src={terrarian} alt="One Drop Legendary Terrarian yoyo" caption="A modern unresponsive ball bearing yoyo (One Drop YoYos Legendary Terrarian)." />
             </div>
-            <aside id="both" className="box">
-              <span className="boxhead">Having it both ways</span>
-              <p>Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure).</p>
-              <p className="point">Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers can't reliably be reused once they're removed. With these yoyos you'll usually decide which setup you prefer and (mostly) leave it.</p>
-            </aside>
+            <Aside 
+              id="both"
+              title="Having it both ways"
+              content="Some yoyos are designed to work for either responsive or unresponsive play. Most of these can be switched back and forth by changing only the bearing and perhaps the axle, and often, both sets are included in the box (but read product descriptions to be sure)."
+              pointContent="Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers can't reliably be reused once they're removed. With these yoyos you'll usually decide which setup you prefer and (mostly) leave it."
+            />
           </div>
           <h3>Playstyles</h3>
           <div className="column-nowrap">
@@ -79,10 +81,10 @@ function App() {
               <p className="mb-6">There are five main styles of play as reflected by the official contest divisions. You can also count an unofficial sixth&mdash;responsive string tricks, sometimes called "0A." If you're new to the hobby,  <a href="https://en.wikipedia.org/wiki/World_Yo-Yo_Contest#Championship_Divisions">check them out</a>.</p>
               <Img src={freehand} alt="Yoyo with counterweight attached" caption="A counterweight or '5A' setup (C3yoyodesign Speedaholic XX yoyo, Porykon V-Dash counterweight)." />
             </div>
-            <aside className="box">
-              <span className="boxhead">The right tools</span>
-              <p>1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles.</p>
-            </aside>
+            <Aside 
+              title="The right tools"
+              content="1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles."
+            />
           </div>
         <Nav />
         <h3 id="guts">Guts</h3>  
@@ -98,11 +100,13 @@ function App() {
               <Img src={transaxle} alt="Inside of a transaxle yoyo" caption="The guts of a transaxle yoyo with starburst response."/>
             </div>  
           </div>
-          <aside className="box">
-            <span className="boxhead">Keeping it simple</span>
-            <p>Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance.</p>
-            <Img src={spinstar} alt="YoYoFactory Spinstar yoyo" caption="A transaxle yoyo (YoYoFactory Spinstar)." />
-          </aside>
+          <Aside 
+            title="Keeping it simple"
+            content="Transaxle yoyos are usually the best choice for younger kids and anyone who is not jazzed by the prospect of yoyo maintenance."
+            src={spinstar}
+            alt="YoYoFactory Spinstar yoyo"
+            caption="A transaxle yoyo (YoYoFactory Spinstar)."
+          />
         </div>
         <div>
           <h4>Ball bearing</h4> 
