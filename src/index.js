@@ -6,6 +6,7 @@ import headerpic from './img/yoyo-topdown.jpg';
 import Img from './js/img';
 import Nav from './js/nav';
 import Aside from './js/aside';
+import AsideFloat from './js/aside_float';
 import terrarian from './img/terrarian-assembled.jpg';
 import spinstar from './img/spinstar-assembled.jpg';
 import freehand from './img/speedaholic-freehand.jpg';
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div className="bg-primary-pale dark:bg-gray-900">
+
     {/* header */}
        <header>
         <div className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70 text-complementary-light dark:text-complementary-verylight relative">
@@ -51,11 +53,15 @@ function App() {
           </div>
         </div>
       </header>
+
     {/* content */}
       <main>
+
         <Nav />
         <p className="point pb-5">There are tons of tutorials for stringing and throwing your first yoyo, trick progression, and maintenance&mdash;they're easy to find, and I'm not repeating them all here. This is an overview, plus some FAQs. Let's get started!</p>
+
         <h2 id="basics">Modern yoyo basics</h2>
+
         <h3>Behavior</h3>
           <div className="column-nowrap">
             <div className="primary">
@@ -75,6 +81,7 @@ function App() {
               pointContent="Sometimes, a yoyo can be set up either responsive or unresponsive, but it also requires different response pads for each. That's less trivial because response stickers can't reliably be reused once they're removed. With these yoyos you'll usually decide which setup you prefer and (mostly) leave it."
             />
           </div>
+  
           <h3>Playstyles</h3>
           <div className="column-nowrap">
             <div className="primary">
@@ -86,6 +93,7 @@ function App() {
               content="1A, 3A, and 5A all use string trick yoyos, mostly interchangeably. 2A and 4A use their own distinct yoyos specific to those playstyles."
             />
           </div>
+
         <Nav />
         <h3 id="guts">Guts</h3>  
         <div className="column-nowrap">
@@ -129,6 +137,7 @@ function App() {
             content={'Manufacturers do still make some string trick yoyos that take bearings other than "C"\u2014typically "D" or "A". That would be mentioned in the product description, though. If the size isn\'t mentioned and it\'s a contemporary string trick yoyo, you can assume it\'s size C. (If it\'s a collectors\' item from the early days of ball-bearing yoyos, though, it might not be one of the current standard sizes at all.)'}
           />
         </div>
+
         <Nav />
         <h3 id="materials" className="clear-both">Materials</h3>
         <div className="columns">
@@ -170,14 +179,17 @@ function App() {
             </div>
           </div>
         </div>
+
         <Nav />
         <h3 id="strings">Strings</h3>
         <div>
-        {/* aside box floats to right starting on screens, but end of the section on smaller screens */}
-          <aside className="box box-float">
-            <span className="boxhead">Thick and thin</span>
-            <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
-          </aside>
+        {/* aside box floats to right on larger screens, but end of the section on smaller screens */}
+          <AsideFloat
+            floated="true"
+            title="Thick and thin"
+            content="Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too."
+          />
+       
           <div className="primary">
             <div>
               <h4>Considerations</h4>
@@ -203,11 +215,13 @@ function App() {
               <p className="point">Some nylon formulations are so slick that you may need to apply rosin to the finger loop to keep it from sliding off. Rosin is an accessory you can sometimes find alongside the strings.</p>
             </div> 
           </div>
-          <aside className="box box-last">
-            <span className="boxhead">Thick and thin</span>
-            <p>Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too.</p>
-          </aside>
+          <AsideFloat
+            floated="false"
+            title="Thick and thin"
+            content="Strings also come in different thicknesses. There are some variations between the different manufacturers, and many of them also offer different thicknesses of their main formula. Thickness is just another personal preference. What you like sometimes depends on the specific yoyo, too."
+          />
         </div>
+
         <Nav />
         <h2 id="gettingstarted">Getting started</h2>
           <h3>What yoyo should I buy?</h3>
@@ -239,6 +253,7 @@ function App() {
             <h4>Online communities</h4>
             <p>Two big ones are <a href="https://www.reddit.com/r/Throwers/">Reddit/r/Throwers</a> (along with the Throwers Discord linked on that page) and the Facebook Group <a href="https://www.facebook.com/groups/yoyoBST">YoYo BST & Talk</a>. There are many more, mostly run by store or manufacturer brands. These can be fun places and good resources as well, but favor their own products (obviously).</p>
             <p className="point">Keeping an eye on one of the larger online communities will also allow you to find out when contests or other gatherings are coming up.</p>
+   
         <Nav />
         <h2 id="faqs">FAQs (with somewhat controversial answers)</h2>
           <div>
@@ -279,10 +294,6 @@ function App() {
                 title="Not a destination"
                 content={'A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever\u2014it\'s not really an either/or thing. That\'s one of the reasons it\'s nice to have one of each available when you\'re ready to start messing around with unresponsive play.'}
               />
-              {/* <aside className="box">
-                <span className="boxhead">Not a destination</span>
-                <p>A lot of people seem to overthink this "when can I graduate to unresponsive" question. Most players I know of continue to enjoy responsive yoyos forever&mdash;It's not really an either/or thing. That's one of the reasons it's nice to have one of each available when you're ready to start messing around with unresponsive play.</p>
-              </aside> */}
             </div>
           </div>
           <div className="clear-both">

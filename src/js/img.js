@@ -1,11 +1,11 @@
 
-function Img(props) {
+function Img( {src, alt, caption} ) {
     return (
         <figure>
             <div>
-                <img src={props.src} alt={props.alt} />
+                <img src={src} alt={alt} />
             </div>
-            <figcaption>{props.caption}</figcaption>
+            <figcaption>{caption}</figcaption>
         </figure>
     );
 }

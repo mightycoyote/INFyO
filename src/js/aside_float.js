@@ -1,8 +1,9 @@
 import Img from './img';
 
-function Aside( {id, title, content, pointContent, src, alt, caption} ) {
+function AsideFloat( {id, title, content, pointContent, src, alt, caption, floated} ) {
+    const classes = `box ${floated === "true" ? 'box-float' : 'box-last'}`;
     return (
-        <aside id={id} className="box">
+        <aside id={id} className={classes}>
             <span className="boxhead">{title}</span>
             <p>{content}</p>
             {pointContent && <p className="point">{pointContent}</p>}
@@ -16,4 +17,4 @@ function Aside( {id, title, content, pointContent, src, alt, caption} ) {
         </aside>
     );
 }
-export default Aside;
+export default AsideFloat;
