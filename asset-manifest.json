@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.a28e5bcb.css",
-    "main.js": "/static/js/main.c35c3b52.js",
+    "main.js": "/static/js/main.8be6d6b1.js",
     "static/js/787.f43726a2.chunk.js": "/static/js/787.f43726a2.chunk.js",
-    "static/media/starters.jpg": "/static/media/starters.c2045b33f334434f9d38.jpg",
-    "static/media/spinstar-inside.jpg": "/static/media/spinstar-inside.9d576f41b33b7a1144c6.jpg",
-    "static/media/ti-vayder.jpg": "/static/media/ti-vayder.6048db29462ae8454c0c.jpg",
-    "static/media/terrarian-inside.jpg": "/static/media/terrarian-inside.9ad0698548d1784d34e6.jpg",
-    "static/media/terrarian-assembled.jpg": "/static/media/terrarian-assembled.f64057ff61cbe277de24.jpg",
-    "static/media/spinstar-assembled.jpg": "/static/media/spinstar-assembled.eb71b594ef4039f40297.jpg",
-    "static/media/atomiccrash.jpg": "/static/media/atomiccrash.61dbb0c16bd4001c5dcd.jpg",
-    "static/media/speedaholic-freehand.jpg": "/static/media/speedaholic-freehand.eb19a735b4159bd1bba5.jpg",
-    "static/media/yoyo-topdown.jpg": "/static/media/yoyo-topdown.f2e1a7088254e6dd56d2.jpg",
+    "static/media/ti-vayder.jpg": "/static/media/ti-vayder.fac80252227991e4c999.jpg",
+    "static/media/starters.jpg": "/static/media/starters.4c6811223676126cfde2.jpg",
+    "static/media/spinstar-inside.jpg": "/static/media/spinstar-inside.6c8e955a51a5c498d767.jpg",
+    "static/media/terrarian-inside.jpg": "/static/media/terrarian-inside.9ccd8d811f08f3484ce9.jpg",
+    "static/media/speedaholic-freehand.jpg": "/static/media/speedaholic-freehand.77eb480477a37078a199.jpg",
+    "static/media/spinstar-assembled.jpg": "/static/media/spinstar-assembled.e546f29c7692e8a0d5da.jpg",
+    "static/media/atomiccrash.jpg": "/static/media/atomiccrash.e72ce4904780435025e2.jpg",
+    "static/media/terrarian-assembled.jpg": "/static/media/terrarian-assembled.7cec20529c21ac7cea50.jpg",
+    "static/media/yoyo-topdown.jpg": "/static/media/yoyo-topdown.8eef5fa68946ee013779.jpg",
     "index.html": "/index.html",
     "main.a28e5bcb.css.map": "/static/css/main.a28e5bcb.css.map",
-    "main.c35c3b52.js.map": "/static/js/main.c35c3b52.js.map",
+    "main.8be6d6b1.js.map": "/static/js/main.8be6d6b1.js.map",
     "787.f43726a2.chunk.js.map": "/static/js/787.f43726a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a28e5bcb.css",
-    "static/js/main.c35c3b52.js"
+    "static/js/main.8be6d6b1.js"
   ]
 }
