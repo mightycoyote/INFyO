@@ -21,6 +21,7 @@ function App() {
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches; // boolean
   const userPref = localPref ?? defaultDark;
   const [darkMode, setDarkMode] = useState(userPref); // will turn on darkMode if evaluated to true
+  
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark");
@@ -29,8 +30,6 @@ function App() {
       document.body.classList.remove("dark");
       localStorage.setItem('darkMode', false);
     }
-    // [darkMode] at the end is an optional second argument to useEffect() to check if it's changed before re-rendering
-    // should keep it from misbehaving when I add preference settings
   }, [darkMode]);
 
   return (
@@ -332,7 +331,7 @@ function App() {
       </main>
       <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70">
         <div className="footertext">
-          <p>&copy;2021 Sarah Wilkes | <a className="text-primary-pale" href="https://mightycoyote.github.io/">Portfolio</a> | <a rel="me" href="https://social.horrorhub.club/@mightycoyote">Mastodon</a></p>
+          <p>&copy;2021 Sarah Wilkes | <a className="text-primary-pale" href="https://mightycoyote.github.io/">Portfolio</a> | <a rel="me" href="https://nerdculture.de/@mightycoyote">Mastodon</a></p>
         </div>
       </footer>
     </div>
