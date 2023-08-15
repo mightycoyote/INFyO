@@ -331,7 +331,7 @@ function App() {
       </main>
       <footer className="bg-secondaryone-verydark dark:bg-secondaryone-light dark:bg-opacity-70">
         <div className="footertext">
-          <p>&copy;2021 Sarah Wilkes | <a className="text-primary-pale" href="https://sarahwilkesdev.com/">Portfolio</a> | <a className="text-primary-pale" rel="me" href="https://nerdculture.de/@mightycoyote">Mastodon</a></p>
+          <p>&copy;2021 Sarah Wilkes | <a className="text-primary-pale" href="https://sarahwilkesdev.com/">Portfolio</a> | <a className="text-primary-pale" href="https://nerdculture.de/@mightycoyote" rel="me">Mastodon</a></p>
         </div>
       </footer>
     </div>
