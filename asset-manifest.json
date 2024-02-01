@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6f2fc53.css",
-    "main.js": "/static/js/main.175aa187.js",
-    "static/js/787.f43726a2.chunk.js": "/static/js/787.f43726a2.chunk.js",
+    "main.css": "/static/css/main.163b9a46.css",
+    "main.js": "/static/js/main.65620313.js",
+    "static/js/592.8bcd4094.chunk.js": "/static/js/592.8bcd4094.chunk.js",
     "static/media/ti-vayder.jpg": "/static/media/ti-vayder.fac80252227991e4c999.jpg",
     "static/media/starters.jpg": "/static/media/starters.4c6811223676126cfde2.jpg",
     "static/media/spinstar-inside.jpg": "/static/media/spinstar-inside.6c8e955a51a5c498d767.jpg",
@@ -13,12 +13,12 @@
     "static/media/terrarian-assembled.jpg": "/static/media/terrarian-assembled.7cec20529c21ac7cea50.jpg",
     "static/media/yoyo-topdown.jpg": "/static/media/yoyo-topdown.8eef5fa68946ee013779.jpg",
     "index.html": "/index.html",
-    "main.b6f2fc53.css.map": "/static/css/main.b6f2fc53.css.map",
-    "main.175aa187.js.map": "/static/js/main.175aa187.js.map",
-    "787.f43726a2.chunk.js.map": "/static/js/787.f43726a2.chunk.js.map"
+    "main.163b9a46.css.map": "/static/css/main.163b9a46.css.map",
+    "main.65620313.js.map": "/static/js/main.65620313.js.map",
+    "592.8bcd4094.chunk.js.map": "/static/js/592.8bcd4094.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6f2fc53.css",
-    "static/js/main.175aa187.js"
+    "static/css/main.163b9a46.css",
+    "static/js/main.65620313.js"
   ]
 }
