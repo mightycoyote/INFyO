@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a3e8438.css",
-    "main.js": "/static/js/main.65620313.js",
+    "main.js": "/static/js/main.7e01d886.js",
     "static/js/592.8bcd4094.chunk.js": "/static/js/592.8bcd4094.chunk.js",
     "static/media/ti-vayder.jpg": "/static/media/ti-vayder.fac80252227991e4c999.jpg",
     "static/media/starters.jpg": "/static/media/starters.4c6811223676126cfde2.jpg",
@@ -14,11 +14,11 @@
     "static/media/yoyo-topdown.jpg": "/static/media/yoyo-topdown.8eef5fa68946ee013779.jpg",
     "index.html": "/index.html",
     "main.0a3e8438.css.map": "/static/css/main.0a3e8438.css.map",
-    "main.65620313.js.map": "/static/js/main.65620313.js.map",
+    "main.7e01d886.js.map": "/static/js/main.7e01d886.js.map",
     "592.8bcd4094.chunk.js.map": "/static/js/592.8bcd4094.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a3e8438.css",
-    "static/js/main.65620313.js"
+    "static/js/main.7e01d886.js"
   ]
 }
